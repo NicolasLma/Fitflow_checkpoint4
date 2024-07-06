@@ -1,0 +1,18 @@
+.nav_container {
+    background-color: #1E1E1E;
+    width: 90%;
+    height: 70px;
+    margin: 1rem 5% 1rem 5%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    gap: 64px;
+    bottom: 0;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav_container img {
+    width: 33px;
+}
