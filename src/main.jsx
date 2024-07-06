@@ -39,19 +39,19 @@ const router = createBrowserRouter([
         element: <FilteredExercices />,
       },
       {
-        path: "détailsexercices",
+        path: "/détailsexercices",
         element: <DetailsFilteredExercices />,
       },
       {
-        path: "programmes",
+        path: "/programmes",
         element: <Programs />,
       },
       {
-        path: "programmesdetails",
+        path: "/programmesdetails",
         element: <DetailsPrograms />,
       },
       {
-        path: "profil",
+        path: "/profil",
         element: <Profile />,
       },
     ],
