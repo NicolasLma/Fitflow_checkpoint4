@@ -1,0 +1,91 @@
+.home_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.home_content {
+  display: flex;
+  position: relative;
+  width: 90%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bg_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.icon_fitflow {
+  position: absolute;
+  top: -10px;
+  width: 130px;
+  height: auto;
+  z-index: 1;
+}
+
+.mess_bvn {
+  position: absolute;
+  bottom: 10px;
+  width: 70%;
+  height: auto;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 1rem;
+}
+
+.bold {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.no_pain {
+  font-size: 12px;
+  font-weight: 200;
+  color: #65fb8d;
+  padding-top: 10rem;
+}
+
+.button_home {
+  display: inline-block;
+  border: none;
+  border-radius: 40px;
+  background-color: #1e1e1e;
+  color: white;
+  width: 90%;
+  height: 51px;
+  margin-top: 0.8rem;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 51px;
+  text-decoration: none;
+}
+
+.button_home:hover {
+  background-color: #65fb8d;
+  color: black;
+  transition: 1s;
+}
+
+.button_home button {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  outline: none;
+}
