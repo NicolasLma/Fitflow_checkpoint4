@@ -1,0 +1,45 @@
+{
+    "parties_musculaires": [
+      {
+        "muscle": "Biceps",
+        "image": "../assets/muscles/exo_biceps.jpg"
+      },
+      {
+        "muscle": "Triceps",
+        "image": "../assets/muscles/exo_triceps.jpg"
+      },
+      {
+        "muscle": "Épaules",
+        "image": "../assets/muscles/exo_epaule.jpg"
+      },
+      {
+        "muscle": "Dos",
+        "image": "../assets/muscles/exo_dos.jpg"
+      },
+      {
+        "muscle": "Quadriceps",
+        "image": "../assets/muscles/exo_quadriceps.jpg"
+      },
+      {
+        "muscle": "Pectoraux",
+        "image": "../assets/muscles/exo_pectoraux.jpg"
+      },
+      {
+        "muscle": "Mollet",
+        "image": "../assets/muscles/exo_mollet.jpg"
+      },
+      {
+        "muscle": "Abdos",
+        "image": "../assets/muscles/exo_abdos.jpg"
+      },
+      {
+        "muscle": "Ischios",
+        "image": "../assets/muscles/exo_ischios.jpg"
+      },
+      {
+        "muscle": "Fessiers",
+        "image": "../assets/muscles/exo_fessier.jpg"
+      }
+    ]
+  }
+  

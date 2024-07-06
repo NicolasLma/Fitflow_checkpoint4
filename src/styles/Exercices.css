@@ -1,0 +1,22 @@
+.logo_center {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_center img {
+    width: 40%;
+    height: 6rem;
+    object-fit: cover;
+}
+
+.exercices_container h1{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.exercices_container h2 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 1rem;
+}
