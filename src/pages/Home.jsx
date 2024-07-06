@@ -17,10 +17,10 @@ export default function Home() {
           </span>
         </h2>
       </section>
-      <Link className="button_home">
+      <Link to="/connexion" className="button_home">
         <button>Connexion</button>
       </Link>
-      <Link className="button_home">
+      <Link to="inscription" className="button_home">
         <button>Inscription</button>
       </Link>
     </section>
