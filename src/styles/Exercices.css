@@ -1,0 +1,63 @@
+.logo_center {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_center img {
+    width: 40%;
+    height: 6rem;
+    object-fit: cover;
+}
+
+.exercices_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7rem;
+}
+
+.exercices_container h1{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.exercices_container h2 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.muscle_exo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start; /* Alignement à droite */
+    margin-bottom: 20px; /* Marge entre chaque élément */
+  }
+  
+  .muscle_exo h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.24); /* Fond semi-transparent noir */
+    color: white;
+    padding: 8px 16px; /* Espacement intérieur */
+    margin: 0;
+    border-radius: 2rem; /* Arrondi de la bordure en haut à droite */
+  }
+
+.muscle_exo img {
+height: 210px;
+width: 260px;
+border-radius: 20px;
+object-fit: cover;
+}
+
+.test {
+    overflow-x: auto; /* Activation du scroll horizontal */
+    display: flex; /* Utilisation de flexbox pour la disposition des éléments */
+    gap: 1rem; /* Espacement entre chaque élément */
+    padding: 1rem; /* Ajout de padding pour l'espace intérieur */
+}
+

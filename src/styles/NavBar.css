@@ -6,7 +6,7 @@
     border-radius: 40px;
     display: flex;
     justify-content: center;
-    position: absolute;
+    position:fixed;
     gap: 64px;
     bottom: 0;
     align-items: center;

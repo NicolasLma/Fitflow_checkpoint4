@@ -35,11 +35,11 @@ const router = createBrowserRouter([
         element: <Exercices />,
       },
       {
-        path: "/exercicesfiltrés",
+        path: "/exercicesfiltrés/:id",
         element: <FilteredExercices />,
       },
       {
-        path: "/détailsexercices",
+        path: "/détailsexercices/:id",
         element: <DetailsFilteredExercices />,
       },
       {
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
         element: <Programs />,
       },
       {
-        path: "/programmesdetails",
+        path: "/programmesdetails/:id",
         element: <DetailsPrograms />,
       },
       {

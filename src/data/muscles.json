@@ -1,0 +1,275 @@
+{
+    "parties_musculaires": [
+      {
+        "id": 1,
+        "muscle": "Biceps",
+        "image": "src/assets/muscles/exo_biceps.jpg",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Curl",
+            "image": "src/assets/exercises/curl.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Hammer Curl",
+            "image": "src/assets/exercises/hammer_curl.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Concentration Curl",
+            "image": "src/assets/exercises/concentration_curl.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Preacher Curl",
+            "image": "src/assets/exercises/preacher_curl.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "muscle": "Triceps",
+        "image": "src/assets/muscles/exo_triceps.jpg",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Tricep Dip",
+            "image": "src/assets/exercises/tricep_dip.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Skull Crusher",
+            "image": "src/assets/exercises/skull_crusher.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Overhead Tricep Extension",
+            "image": "src/assets/exercises/overhead_tricep_extension.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Tricep Pushdown",
+            "image": "src/assets/exercises/tricep_pushdown.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "muscle": "Épaules",
+        "image": "src/assets/muscles/exo_epaule.jpg",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Shoulder Press",
+            "image": "src/assets/exercises/shoulder_press.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Lateral Raise",
+            "image": "src/assets/exercises/lateral_raise.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Front Raise",
+            "image": "src/assets/exercises/front_raise.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Rear Delt Fly",
+            "image": "src/assets/exercises/rear_delt_fly.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "muscle": "Dos",
+        "image": "src/assets/muscles/exo_dos.jpg",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Pull-up",
+            "image": "src/assets/exercises/pull_up.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Bent Over Row",
+            "image": "src/assets/exercises/bent_over_row.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Deadlift",
+            "image": "src/assets/exercises/deadlift.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Lat Pulldown",
+            "image": "src/assets/exercises/lat_pulldown.jpg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "muscle": "Quadriceps",
+        "image": "src/assets/muscles/exo_quadriceps.jpg",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Squat",
+            "image": "src/assets/exercises/squat.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Leg Press",
+            "image": "src/assets/exercises/leg_press.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Lunge",
+            "image": "src/assets/exercises/lunge.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Leg Extension",
+            "image": "src/assets/exercises/leg_extension.jpg"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "muscle": "Pectoraux",
+        "image": "src/assets/muscles/exo_pectoraux.jpg",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Bench Press",
+            "image": "src/assets/exercises/bench_press.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Chest Fly",
+            "image": "src/assets/exercises/chest_fly.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Push-up",
+            "image": "src/assets/exercises/push_up.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Incline Bench Press",
+            "image": "src/assets/exercises/incline_bench_press.jpg"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "muscle": "Mollet",
+        "image": "src/assets/muscles/exo_mollet.jpg",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Calf Raise",
+            "image": "src/assets/exercises/calf_raise.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Seated Calf Raise",
+            "image": "src/assets/exercises/seated_calf_raise.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Donkey Calf Raise",
+            "image": "src/assets/exercises/donkey_calf_raise.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Single-Leg Calf Raise",
+            "image": "src/assets/exercises/single_leg_calf_raise.jpg"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "muscle": "Abdos",
+        "image": "src/assets/muscles/exo_abdos.jpg",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Crunch",
+            "image": "src/assets/exercises/crunch.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Plank",
+            "image": "src/assets/exercises/plank.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Leg Raise",
+            "image": "src/assets/exercises/leg_raise.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Russian Twist",
+            "image": "src/assets/exercises/russian_twist.jpg"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "muscle": "Ischios",
+        "image": "src/assets/muscles/exo_ischios.jpg",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Romanian Deadlift",
+            "image": "src/assets/exercises/romanian_deadlift.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Leg Curl",
+            "image": "src/assets/exercises/leg_curl.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Good Morning",
+            "image": "src/assets/exercises/good_morning.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Glute Bridge",
+            "image": "src/assets/exercises/glute_bridge.jpg"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "muscle": "Fessiers",
+        "image": "src/assets/muscles/exo_fessier.jpg",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Hip Thrust",
+            "image": "src/assets/exercises/hip_thrust.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Glute Kickback",
+            "image": "src/assets/exercises/glute_kickback.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Step-up",
+            "image": "src/assets/exercises/step_up.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Bulgarian Split Squat",
+            "image": "src/assets/exercises/bulgarian_split_squat.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  
