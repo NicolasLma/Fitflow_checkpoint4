@@ -3,6 +3,8 @@ import NavBar from "../components/NavBar";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+import { Link } from "react-router-dom";
+
 import logoFitflowBlack from "../assets/logo_fitflow_black.png";
 
 export default function Exercices() {
@@ -60,20 +62,24 @@ export default function Exercices() {
           <h2>Exercices par groupe musculaire</h2>
           <section className="test">
             {musclesData.parties_musculaires?.map((muscle) => (
-              <div key={muscle.id} className="muscle_exo">
-                <h3>{muscle.muscle}</h3>
-                <img src={muscle.image} alt={muscle.muscle} />
-              </div>
+              <Link key={muscle.id} to={`/exercicesfiltrés/${muscle.id}`}>
+                <div className="muscle_exo">
+                  <h3>{muscle.muscle}</h3>
+                  <img src={muscle.image} alt={muscle.muscle} />
+                </div>
+              </Link>
             ))}
           </section>
-          <h2>Exercices par groupe musculaire</h2>
+          <h2>Exercices par équipement</h2>
 
           <section className="test">
             {equipmentData.equipments_exos?.map((equipment) => (
-              <div key={equipment.id} className="muscle_exo">
-                <h3>{equipment.equipment}</h3>
-                <img src={equipment.image} alt={equipment.equipment} />
-              </div>
+              <Link key={equipment.id} to={`/exercicesfiltrés/${equipment.id}`}>
+                <div className="muscle_exo">
+                  <h3>{equipment.equipment}</h3>
+                  <img src={equipment.image} alt={equipment.equipment} />
+                </div>
+              </Link>
             ))}
           </section>
         </section>
