@@ -1,36 +1,32 @@
 {
-    "parties_musculaires": [
+    "equipments_exos": [
       {
         "equipment": "Barre",
-        "image": "src/assets/muscles/exo_barre.jpg"
+        "image": "src/assets/equipment/exo_barre.jpg"
       },
       {
         "equipment": "Poulie",
-        "image": "src/assets/muscles/exo_poulie.jpg"
+        "image": "src/assets/equipment/exo_poulie.jpg"
       },
       {
         "equipment": "Machine",
-        "image": "src/assets/muscles/exo_machine.jpg"
+        "image": "src/assets/equipment/exo_machine.jpg"
       },
       {
         "equipment": "Altère",
-        "image": "src/assets/muscles/exo_altere.jpg"
-      },
-      {
-        "equipment": "Quadriceps",
-        "image": "src/assets/muscles/exo_quadriceps.jpg"
+        "image": "src/assets/equipment/exo_altere.jpg"
       },
       {
         "equipment": "Poid du corps",
-        "image": "src/assets/muscles/exo_pectoraux.jpg"
+        "image": "src/assets/equipment/exo_PDC.jpg"
       },
       {
         "equipment": "Kettlebell",
-        "image": "src/assets/muscles/exo_kettlebell.jpg"
+        "image": "src/assets/equipment/exo_kettlebell.jpg"
       },
       {
         "equipment": "Élastique",
-        "image": "src/assets/muscles/exo_elastique.jpg"
+        "image": "src/assets/equipment/exo_elastique.jpg"
       }
     ]
   }
