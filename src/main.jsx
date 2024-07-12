@@ -13,7 +13,7 @@ import DetailsFilteredExercices from "./pages/DetailsFilteredExercices";
 import Programs from "./pages/Programs";
 import DetailsPrograms from "./pages/DetailsPrograms";
 import Profile from "./pages/Profile";
-import FilteredExercicesEquipment from "./pages/FilteredExercicesEquipment"
+import FilteredExercicesEquipment from "./pages/FilteredExercicesEquipment";
 
 const router = createBrowserRouter([
   {
