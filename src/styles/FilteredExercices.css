@@ -1,0 +1,42 @@
+.header_filtered_exo {
+  display: flex;
+  height: 10vh;
+  background-color: #1e1e1e;
+  color: white;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 1rem;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.header_filtered_exo img {
+  width: 30px;
+  height: 30px;
+  margin-top: 0.5rem;
+}
+
+.exercises_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.exercise_item {
+    width: 95%;
+    padding: 1rem;
+}
+
+.exercise_item img {
+    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+border: 1px solid; 
+border-color: #1e1e1e;   
+}
