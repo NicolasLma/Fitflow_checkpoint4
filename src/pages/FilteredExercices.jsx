@@ -1,8 +1,34 @@
+import iconBack from "../assets/icons-back.png";
+import NavBar from "../components/NavBar";
+import { useParams, useLocation, Link } from "react-router-dom";
+
+
+import "../styles/FilteredExercices.css";
+
 export default function FilteredExercices() {
+  const { muscle } = useParams();
+  const location = useLocation();
+  const { exercises } = location.state || { exercises: [] };
+
   return (
     <>
-      <h1>Filtered Exercices</h1>
-      <p>exoss</p>
+      <section className="header_filtered_exo">
+        <Link to="/exercices">
+        <img src={iconBack} alt="icone retour en arrière" />
+        </Link>
+        <p>EXERCICES {muscle ? muscle.toUpperCase() : ""}</p>
+      </section>
+
+
+      <section className="exercises_list">
+        {exercises.map((exercise) => (
+          <div key={exercise.id} className="exercise_item">
+            <h3>{exercise.name}</h3>
+            <img src={exercise.image} alt={exercise.name} />
+          </div>
+        ))}
+      </section>
+      <NavBar />
     </>
   );
 }

@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         element: <Exercices />,
       },
       {
-        path: "/exercicesfiltrés/:id",
+        path: "/exercicesfiltrés/:id/:muscle",
         element: <FilteredExercices />,
       },
       {

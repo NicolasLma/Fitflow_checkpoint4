@@ -62,7 +62,9 @@ export default function Exercices() {
           <h2>Exercices par groupe musculaire</h2>
           <section className="test">
             {musclesData.parties_musculaires?.map((muscle) => (
-              <Link key={muscle.id} to={`/exercicesfiltrés/${muscle.id}`}>
+              <Link key={muscle.id}
+              to={`/exercicesfiltrés/${muscle.id}/${muscle.muscle}`}
+              state={{ exercises: muscle.exercises }}>
                 <div className="muscle_exo">
                   <h3>{muscle.muscle}</h3>
                   <img src={muscle.image} alt={muscle.muscle} />
