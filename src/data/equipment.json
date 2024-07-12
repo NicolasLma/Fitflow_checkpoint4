@@ -54,23 +54,13 @@
         "exercises": [
           {
             "id": 1,
-            "name": "Cable Crossover",
-            "image": "src/assets/exercises/cable_crossover.jpg"
+            "name": "Extension verticale à la poulie",
+            "image": "src/assets/poulie/extension_verticale_poulie.jpg"
           },
           {
             "id": 2,
-            "name": "Lat Pulldown",
-            "image": "src/assets/exercises/lat_pulldown.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Triceps Pushdown",
-            "image": "src/assets/exercises/triceps_pushdown.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Face Pull",
-            "image": "src/assets/exercises/face_pull.jpg"
+            "name": "Tirage verticale poitrine",
+            "image": "src/assets/poulie/tirage_verticale_poitrine.jpg"
           }
         ]
       },
