@@ -7,23 +7,43 @@
         "exercises": [
           {
             "id": 1,
-            "name": "Squat",
-            "image": "src/assets/exercises/squat.jpg"
+            "name": "Barre au front à la barre",
+            "image": "src/assets/barre/barre_front.png"
           },
           {
             "id": 2,
-            "name": "Deadlift",
-            "image": "src/assets/exercises/deadlift.jpg"
+            "name": "Développé incliné à la barre",
+            "image": "src/assets/barre/developpe_incline_barre.jpg"
           },
           {
             "id": 3,
-            "name": "Bench Press",
-            "image": "src/assets/exercises/bench_press.jpg"
+            "name": "Développé militaire à la barre",
+            "image": "src/assets/barre/developper_militaire.jpg"
           },
           {
             "id": 4,
-            "name": "Overhead Press",
-            "image": "src/assets/exercises/overhead_press.jpg"
+            "name": "Élevation frontale à la barre",
+            "image": "src/assets/barre/elevation_frontale_barre.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Élevation verticale à la barre",
+            "image": "src/assets/barre/elevation_verticale_barre.jpg"
+          },
+          {
+            "id": 6,
+            "name": "Fente à la barre",
+            "image": "src/assets/barre/fente_barre.jpg"
+          },
+          {
+            "id": 7,
+            "name": "Soulevé de terre",
+            "image": "src/assets/barre/souleve_terre.jpg"
+          },
+          {
+            "id": 8,
+            "name": "Squat à la barre",
+            "image": "src/assets/barre/squat_barre.jpg"
           }
         ]
       },
@@ -159,33 +179,6 @@
             "id": 4,
             "name": "Kettlebell Clean and Press",
             "image": "src/assets/exercises/kettlebell_clean_press.jpg"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "equipment": "Élastique",
-        "image": "src/assets/equipment/exo_elastique.jpg",
-        "exercises": [
-          {
-            "id": 1,
-            "name": "Resistance Band Squat",
-            "image": "src/assets/exercises/resistance_band_squat.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Resistance Band Row",
-            "image": "src/assets/exercises/resistance_band_row.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Resistance Band Chest Press",
-            "image": "src/assets/exercises/resistance_band_chest_press.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Resistance Band Deadlift",
-            "image": "src/assets/exercises/resistance_band_deadlift.jpg"
           }
         ]
       }
