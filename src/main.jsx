@@ -39,6 +39,10 @@ const router = createBrowserRouter([
         element: <FilteredExercices />,
       },
       {
+        path: "/exercicesfiltrésequipements/:id/:equipement",
+        element: <FilteredExercicesEquipement/> ,
+      },
+      {
         path: "/détailsexercices/:id",
         element: <DetailsFilteredExercices />,
       },
