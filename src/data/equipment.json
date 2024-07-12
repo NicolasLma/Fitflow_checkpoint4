@@ -165,23 +165,28 @@
         "exercises": [
           {
             "id": 1,
-            "name": "Push-up",
-            "image": "src/assets/exercises/push_up.jpg"
+            "name": "Crunch",
+            "image": "src/assets/pdc/crunch.jpg"
           },
           {
             "id": 2,
-            "name": "Pull-up",
-            "image": "src/assets/exercises/pull_up.jpg"
+            "name": "Dips",
+            "image": "src/assets/pdc/dips.jpg"
           },
           {
             "id": 3,
-            "name": "Lunge",
-            "image": "src/assets/exercises/lunge.jpg"
+            "name": "Relevé de genoux",
+            "image": "src/assets/pdc/releve_genoux.jpg"
           },
           {
             "id": 4,
-            "name": "Plank",
-            "image": "src/assets/exercises/plank.jpg"
+            "name": "Traction pronation",
+            "image": "src/assets/pdc/traction_pronation.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Traction supination",
+            "image": "src/assets/pdc/traction_supination.jpg"
           }
         ]
       },
