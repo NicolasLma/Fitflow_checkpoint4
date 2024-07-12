@@ -71,23 +71,43 @@
         "exercises": [
           {
             "id": 1,
-            "name": "Leg Press",
-            "image": "src/assets/exercises/leg_press.jpg"
+            "name": "Crunch à la machine",
+            "image": "src/assets/machine/crunch_machine.jpg"
           },
           {
             "id": 2,
-            "name": "Seated Row",
-            "image": "src/assets/exercises/seated_row.jpg"
+            "name": "Curl à la machine",
+            "image": "src/assets/machine/curl_machine_white.png"
           },
           {
             "id": 3,
-            "name": "Chest Press",
-            "image": "src/assets/exercises/chest_press.jpg"
+            "name": "Développé à la machine assis",
+            "image": "src/assets/machine/developpe_machine_assis.jpg"
           },
           {
             "id": 4,
-            "name": "Leg Curl",
-            "image": "src/assets/exercises/leg_curl.jpg"
+            "name": "Extension mollet à la machine",
+            "image": "src/assets/machine/extension_mollet_machine.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Leg curl allongé",
+            "image": "src/assets/machine/leg_curl_allonge.jpg"
+          },
+          {
+            "id": 6,
+            "name": "Leg extension",
+            "image": "src/assets/machine/leg_extension.jpg"
+          },
+          {
+            "id": 7,
+            "name": "Presse à la cuisse",
+            "image": "src/assets/machine/presse_cuisse.jpg"
+          },
+          {
+            "id": 8,
+            "name": "Rowing à la machine",
+            "image": "src/assets/machine/rowing_machine.jpg"
           }
         ]
       },
