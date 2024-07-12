@@ -118,23 +118,43 @@
         "exercises": [
           {
             "id": 1,
-            "name": "Bicep Curl",
-            "image": "src/assets/exercises/bicep_curl.jpg"
+            "name": "Curl altere",
+            "image": "src/assets/altere/curl_altere_white.png"
           },
           {
             "id": 2,
-            "name": "Shoulder Press",
-            "image": "src/assets/exercises/shoulder_press.jpg"
+            "name": "Écarté couché aux alteres",
+            "image": "src/assets/altere/ecarte_couche_altere.jpg"
           },
           {
             "id": 3,
-            "name": "Lateral Raise",
-            "image": "src/assets/exercises/lateral_raise.jpg"
+            "name": "Élévation latérale",
+            "image": "src/assets/altere/elevation_laterale.jpg"
           },
           {
             "id": 4,
-            "name": "Dumbbell Row",
-            "image": "src/assets/exercises/dumbbell_row.jpg"
+            "name": "Extension mollets aux alteres",
+            "image": "src/assets/altere/extension_mollet_altere.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Kickback",
+            "image": "src/assets/altere/kickback.jpg"
+          },
+          {
+            "id": 6,
+            "name": "Oiseaux",
+            "image": "src/assets/altere/oiseaux.jpg"
+          },
+          {
+            "id": 7,
+            "name": "Pullover",
+            "image": "src/assets/altere/pullover.jpg"
+          },
+          {
+            "id": 8,
+            "name": "Rowing aux alteres",
+            "image": "src/assets/altere/rowing_altere.jpg"
           }
         ]
       },
