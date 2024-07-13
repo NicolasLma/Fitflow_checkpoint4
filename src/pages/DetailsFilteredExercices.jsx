@@ -2,6 +2,8 @@ import iconBack from "../assets/icons-back.png";
 import NavBar from "../components/NavBar";
 import { useParams, useLocation, Link } from "react-router-dom";
 
+import "../styles/DetailsFilteredExercices.css"
+
 export default function DetailsFilteredExercices() {
   const { id } = useParams();
   const location = useLocation();
@@ -25,11 +27,17 @@ export default function DetailsFilteredExercices() {
         <h2>{exercise.name}</h2>
         <img src={exercise.image} alt={exercise.name} />
         <h4>Description de l'exercice</h4>
-            <p>{exercise.description}</p>
+        <ul>
+    {exercise.description.map((desc, index) => (
+      <li key={index}>{desc}</li>
+    ))}
+  </ul>
 
       </section>
+<section className="nav_exo_detail">
 
       <NavBar />
+</section>
     </>
   );
 }
