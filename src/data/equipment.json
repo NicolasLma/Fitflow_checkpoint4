@@ -1,194 +1,216 @@
 {
-    "equipments_exos": [
-      {
-        "id": 1,
-        "equipment": "Barre",
-        "image": "src/assets/equipment/exo_barre.jpg",
-        "exercises": [
-          {
-            "id": 1,
-            "name": "Squat",
-            "image": "src/assets/exercises/squat.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Deadlift",
-            "image": "src/assets/exercises/deadlift.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Bench Press",
-            "image": "src/assets/exercises/bench_press.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Overhead Press",
-            "image": "src/assets/exercises/overhead_press.jpg"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "equipment": "Poulie",
-        "image": "src/assets/equipment/exo_poulie.jpg",
-        "exercises": [
-          {
-            "id": 1,
-            "name": "Cable Crossover",
-            "image": "src/assets/exercises/cable_crossover.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Lat Pulldown",
-            "image": "src/assets/exercises/lat_pulldown.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Triceps Pushdown",
-            "image": "src/assets/exercises/triceps_pushdown.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Face Pull",
-            "image": "src/assets/exercises/face_pull.jpg"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "equipment": "Machine",
-        "image": "src/assets/equipment/exo_machine.jpg",
-        "exercises": [
-          {
-            "id": 1,
-            "name": "Leg Press",
-            "image": "src/assets/exercises/leg_press.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Seated Row",
-            "image": "src/assets/exercises/seated_row.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Chest Press",
-            "image": "src/assets/exercises/chest_press.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Leg Curl",
-            "image": "src/assets/exercises/leg_curl.jpg"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "equipment": "Altère",
-        "image": "src/assets/equipment/exo_altere.jpg",
-        "exercises": [
-          {
-            "id": 1,
-            "name": "Bicep Curl",
-            "image": "src/assets/exercises/bicep_curl.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Shoulder Press",
-            "image": "src/assets/exercises/shoulder_press.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Lateral Raise",
-            "image": "src/assets/exercises/lateral_raise.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Dumbbell Row",
-            "image": "src/assets/exercises/dumbbell_row.jpg"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "equipment": "Poid du corps",
-        "image": "src/assets/equipment/exo_PDC.jpg",
-        "exercises": [
-          {
-            "id": 1,
-            "name": "Push-up",
-            "image": "src/assets/exercises/push_up.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Pull-up",
-            "image": "src/assets/exercises/pull_up.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Lunge",
-            "image": "src/assets/exercises/lunge.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Plank",
-            "image": "src/assets/exercises/plank.jpg"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "equipment": "Kettlebell",
-        "image": "src/assets/equipment/exo_kettlebell.jpg",
-        "exercises": [
-          {
-            "id": 1,
-            "name": "Kettlebell Swing",
-            "image": "src/assets/exercises/kettlebell_swing.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Goblet Squat",
-            "image": "src/assets/exercises/goblet_squat.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Turkish Get-Up",
-            "image": "src/assets/exercises/turkish_get_up.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Kettlebell Clean and Press",
-            "image": "src/assets/exercises/kettlebell_clean_press.jpg"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "equipment": "Élastique",
-        "image": "src/assets/equipment/exo_elastique.jpg",
-        "exercises": [
-          {
-            "id": 1,
-            "name": "Resistance Band Squat",
-            "image": "src/assets/exercises/resistance_band_squat.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Resistance Band Row",
-            "image": "src/assets/exercises/resistance_band_row.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Resistance Band Chest Press",
-            "image": "src/assets/exercises/resistance_band_chest_press.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Resistance Band Deadlift",
-            "image": "src/assets/exercises/resistance_band_deadlift.jpg"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "equipments_exos": [
+    {
+      "id": 1,
+      "equipment": "Barre",
+      "image": "/src/assets/equipment/exo_barre.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Barre au front à la barre",
+          "image": "/src/assets/barre/barre_front.png"
+        },
+        {
+          "id": 2,
+          "name": "Développé incliné à la barre",
+          "image": "/src/assets/barre/developpe_incline_barre.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Développé militaire à la barre",
+          "image": "/src/assets/barre/developper_militaire.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Élevation frontale à la barre",
+          "image": "/src/assets/barre/elevation_frontale_barre.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Extension verticale à la barre",
+          "image": "/src/assets/barre/extension_verticale_barre.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Fente à la barre",
+          "image": "/src/assets/barre/fente_barre.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Soulevé de terre",
+          "image": "/src/assets/barre/souleve_terre.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Squat à la barre",
+          "image": "/src/assets/barre/squat_barre.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "equipment": "Poulie",
+      "image": "/src/assets/equipment/exo_poulie.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Extension verticale à la poulie",
+          "image": "/src/assets/poulie/extension_verticale_poulie.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Tirage verticale poitrine",
+          "image": "/src/assets/poulie/tirage_verticale_poitrine.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "equipment": "Machine",
+      "image": "/src/assets/equipment/exo_machine.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Crunch à la machine",
+          "image": "/src/assets/machine/crunch_machine.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Curl à la machine",
+          "image": "/src/assets/machine/curl_machine_white.png"
+        },
+        {
+          "id": 3,
+          "name": "Développé à la machine assis",
+          "image": "/src/assets/machine/developpe_machine_assis.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Extension mollet à la machine",
+          "image": "/src/assets/machine/extension_mollet_machine.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Leg curl allongé",
+          "image": "/src/assets/machine/leg_curl_allonge.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Leg extension",
+          "image": "/src/assets/machine/leg_extension.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Presse à la cuisse",
+          "image": "/src/assets/machine/presse_cuisse.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Rowing à la machine",
+          "image": "/src/assets/machine/rowing_machine.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "equipment": "Altère",
+      "image": "/src/assets/equipment/exo_altere.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Curl altere",
+          "image": "/src/assets/altere/curl_altere_white.png"
+        },
+        {
+          "id": 2,
+          "name": "Écarté couché aux alteres",
+          "image": "/src/assets/altere/ecarte_couche_altere.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Élévation latérale",
+          "image": "/src/assets/altere/elevation_laterale.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Extension mollets aux alteres",
+          "image": "/src/assets/altere/extension_mollets_altere.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Kickback",
+          "image": "/src/assets/altere/kickback.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Oiseaux",
+          "image": "/src/assets/altere/oiseaux.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Pullover",
+          "image": "/src/assets/altere/pullover.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Rowing aux alteres",
+          "image": "/src/assets/altere/rowing_altere.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "equipment": "Poid du corps",
+      "image": "/src/assets/equipment/exo_PDC.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Crunch",
+          "image": "/src/assets/pdc/crunch.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Dips",
+          "image": "/src/assets/pdc/dips.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Relevé de genoux",
+          "image": "/src/assets/pdc/releve_genoux.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Traction pronation",
+          "image": "/src/assets/pdc/traction_pronation.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Traction supination",
+          "image": "/src/assets/pdc/traction_supination.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "equipment": "Kettlebell",
+      "image": "/src/assets/equipment/exo_kettlebell.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Clean kettlebell",
+          "image": "/src/assets/kettlebell/Clean_kettlebell.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Snatch kettlebell",
+          "image": "/src/assets/kettlebell/Snatch_kettlebell.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Swing kettlebell",
+          "image": "/src/assets/kettlebell/Swing_kettlebell.jpg"
+        }
+      ]
+    }
+  ]
+}

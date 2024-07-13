@@ -13,6 +13,7 @@ import DetailsFilteredExercices from "./pages/DetailsFilteredExercices";
 import Programs from "./pages/Programs";
 import DetailsPrograms from "./pages/DetailsPrograms";
 import Profile from "./pages/Profile";
+import FilteredExercicesEquipment from "./pages/FilteredExercicesEquipment";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/exercicesfiltrés/:id/:muscle",
         element: <FilteredExercices />,
+      },
+      {
+        path: "/exercicesfiltrésequipements/:id/:equipement",
+        element: <FilteredExercicesEquipment/> ,
       },
       {
         path: "/détailsexercices/:id",

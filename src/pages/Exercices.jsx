@@ -76,7 +76,7 @@ export default function Exercices() {
 
           <section className="test">
             {equipmentData.equipments_exos?.map((equipment) => (
-              <Link key={equipment.id} to={`/exercicesfiltrés/${equipment.id}`}>
+              <Link key={equipment.id} to={`/exercicesfiltrés/${equipment.id}/${equipment.equipment}`} state={{ exercises: equipment.exercises }}>
                 <div className="muscle_exo">
                   <h3>{equipment.equipment}</h3>
                   <img src={equipment.image} alt={equipment.equipment} />
