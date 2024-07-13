@@ -2,9 +2,7 @@ import "../styles/Exercices.css";
 import NavBar from "../components/NavBar";
 import { useEffect, useState } from "react";
 import axios from "axios";
-
 import { Link } from "react-router-dom";
-
 import logoFitflowBlack from "../assets/logo_fitflow_black.png";
 
 export default function Exercices() {
@@ -13,7 +11,7 @@ export default function Exercices() {
 
   useEffect(() => {
     axios
-      .get("src/data/muscles.json")
+      .get("/src/data/muscles.json")
       .then((response) => {
         try {
           console.log("Données récupérées avec succès :", response.data);
@@ -27,13 +25,9 @@ export default function Exercices() {
       });
   }, []);
 
-  if (!musclesData) {
-    return <div>Loading...</div>;
-  }
-
   useEffect(() => {
     axios
-      .get("src/data/equipment.json")
+      .get("/src/data/equipment.json")
       .then((response) => {
         try {
           console.log("Données récupérées avec succès :", response.data);
@@ -47,7 +41,7 @@ export default function Exercices() {
       });
   }, []);
 
-  if (!equipmentData) {
+  if (!musclesData.parties_musculaires || !equipmentData.equipments_exos) {
     return <div>Loading...</div>;
   }
 
@@ -55,16 +49,18 @@ export default function Exercices() {
     <>
       <section className="exercices_container">
         <section className="logo_center">
-          <img src={logoFitflowBlack} alt="" />
+          <img src={logoFitflowBlack} alt="Fitflow Logo" />
         </section>
         <section className="exercices_content">
           <h1>EXERCICES</h1>
           <h2>Exercices par groupe musculaire</h2>
           <section className="test">
             {musclesData.parties_musculaires?.map((muscle) => (
-              <Link key={muscle.id}
-              to={`/exercicesfiltrés/${muscle.id}/${muscle.muscle}`}
-              state={{ exercises: muscle.exercises }}>
+              <Link
+                key={muscle.id}
+                to={`/exercicesfiltrés/${muscle.id}/${muscle.muscle}`}
+                state={{ exercises: muscle.exercises }}
+              >
                 <div className="muscle_exo">
                   <h3>{muscle.muscle}</h3>
                   <img src={muscle.image} alt={muscle.muscle} />
@@ -73,10 +69,13 @@ export default function Exercices() {
             ))}
           </section>
           <h2>Exercices par équipement</h2>
-
           <section className="test">
             {equipmentData.equipments_exos?.map((equipment) => (
-              <Link key={equipment.id} to={`/exercicesfiltrés/${equipment.id}/${equipment.equipment}`} state={{ exercises: equipment.exercises }}>
+              <Link
+                key={equipment.id}
+                to={`/exercicesfiltrés/${equipment.id}/${equipment.equipment}`}
+                state={{ exercises: equipment.exercises }}
+              >
                 <div className="muscle_exo">
                   <h3>{equipment.equipment}</h3>
                   <img src={equipment.image} alt={equipment.equipment} />
