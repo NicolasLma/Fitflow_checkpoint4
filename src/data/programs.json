@@ -1,583 +1,582 @@
 [
-    {
-      "id": 1,
-      "name": "Débutant",
-      "image": "/src/assets/programmes/débutant.jpg",
-      "sessions": [
-        {
-          "id": 1,
-          "name": "Séance 1",
-          "exercises": [
-            {
-              "id": 1,
-              "name": "Clean kettlebell",
-              "image": "/src/assets/kettlebell/Clean_kettlebell.jpg",
-              "sets": 3,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 2,
-              "name": "Snatch kettlebell",
-              "image": "/src/assets/kettlebell/Snatch_kettlebell.jpg",
-              "sets": 3,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 3,
-              "name": "Swing kettlebell",
-              "image": "/src/assets/kettlebell/Swing_kettlebell.jpg",
-              "sets": 3,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 4,
-              "name": "Tirage horizontal",
-              "image": "/src/assets/tirage_horizontal.jpg",
-              "sets": 3,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 5,
-              "name": "Presse à cuisses",
-              "image": "/src/assets/presse_a_cuisses.jpg",
-              "sets": 3,
-              "reps": 15,
-              "rest": "1 min"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Séance 2",
-          "exercises": [
-            {
-              "id": 6,
-              "name": "Développé couché",
-              "image": "/src/assets/developpe_couche.jpg",
-              "sets": 3,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 7,
-              "name": "Extension des mollets avec haltères",
-              "image": "/src/assets/extension_mollets.jpg",
-              "sets": 3,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 8,
-              "name": "Machine à abdos",
-              "image": "/src/assets/machine_abdos.jpg",
-              "sets": 3,
-              "reps": 20,
-              "rest": "1 min"
-            },
-            {
-              "id": 9,
-              "name": "Fentes avec barre",
-              "image": "/src/assets/fentes_barre.jpg",
-              "sets": 3,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 10,
-              "name": "Relevé de genoux suspendu à une barre",
-              "image": "/src/assets/releve_de_genoux.jpg",
-              "sets": 3,
-              "reps": 15,
-              "rest": "1 min"
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Séance 3",
-          "exercises": [
-            {
-              "id": 11,
-              "name": "Curl allongé",
-              "image": "/src/assets/curl_allonge.jpg",
-              "sets": 3,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 12,
-              "name": "Crunch",
-              "image": "/src/assets/crunch.jpg",
-              "sets": 3,
-              "reps": 20,
-              "rest": "1 min"
-            },
-            {
-              "id": 13,
-              "name": "Tirage vertical",
-              "image": "/src/assets/tirage_vertical.jpg",
-              "sets": 3,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 14,
-              "name": "Soulevé de terre",
-              "image": "/src/assets/souleve_de_terre.jpg",
-              "sets": 3,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 15,
-              "name": "Pullover",
-              "image": "/src/assets/pullover.jpg",
-              "sets": 3,
-              "reps": 12,
-              "rest": "1 min 30"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Maison",
-      "image": "/src/assets/programmes/maison.jpg",
-      "sessions": [
-        {
-          "id": 1,
-          "name": "Séance 1",
-          "exercises": [
-            {
-              "id": 1,
-              "name": "Clean kettlebell",
-              "image": "/src/assets/kettlebell/Clean_kettlebell.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 2,
-              "name": "Swing kettlebell",
-              "image": "/src/assets/kettlebell/Swing_kettlebell.jpg",
-              "sets": 4,
-              "reps": 20,
-              "rest": "1 min"
-            },
-            {
-              "id": 3,
-              "name": "Snatch kettlebell",
-              "image": "/src/assets/kettlebell/Snatch_kettlebell.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 4,
-              "name": "Crunch",
-              "image": "/src/assets/crunch.jpg",
-              "sets": 4,
-              "reps": 25,
-              "rest": "1 min"
-            },
-            {
-              "id": 5,
-              "name": "Développé couché incliné",
-              "image": "/src/assets/developpe_couche_incline.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Séance 2",
-          "exercises": [
-            {
-              "id": 6,
-              "name": "Presse à cuisses",
-              "image": "/src/assets/presse_a_cuisses.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 7,
-              "name": "Tirage horizontal",
-              "image": "/src/assets/tirage_horizontal.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 8,
-              "name": "Fentes avec barre",
-              "image": "/src/assets/fentes_barre.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 9,
-              "name": "Extension des mollets avec haltères",
-              "image": "/src/assets/extension_mollets.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 10,
-              "name": "Développé couché haltères",
-              "image": "/src/assets/developpe_couche_halteres.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Séance 3",
-          "exercises": [
-            {
-              "id": 11,
-              "name": "Machine à abdos",
-              "image": "/src/assets/machine_abdos.jpg",
-              "sets": 4,
-              "reps": 20,
-              "rest": "1 min"
-            },
-            {
-              "id": 12,
-              "name": "Curl allongé",
-              "image": "/src/assets/curl_allonge.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 13,
-              "name": "Tirage vertical",
-              "image": "/src/assets/tirage_vertical.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 14,
-              "name": "Relevé de genoux suspendu à une barre",
-              "image": "/src/assets/releve_de_genoux.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 15,
-              "name": "Soulevé de terre",
-              "image": "/src/assets/souleve_de_terre.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Perte de poids",
-      "image": "/src/assets/programmes/perte_de_poids.jpg",
-      "sessions": [
-        {
-          "id": 1,
-          "name": "Séance 1",
-          "exercises": [
-            {
-              "id": 1,
-              "name": "Swing kettlebell",
-              "image": "/src/assets/kettlebell/Swing_kettlebell.jpg",
-              "sets": 4,
-              "reps": 20,
-              "rest": "1 min"
-            },
-            {
-              "id": 2,
-              "name": "Fentes avec barre",
-              "image": "/src/assets/fentes_barre.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 3,
-              "name": "Crunch",
-              "image": "/src/assets/crunch.jpg",
-              "sets": 4,
-              "reps": 25,
-              "rest": "1 min"
-            },
-            {
-              "id": 4,
-              "name": "Presse à cuisses",
-              "image": "/src/assets/presse_a_cuisses.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 5,
-              "name": "Machine à abdos",
-              "image": "/src/assets/machine_abdos.jpg",
-              "sets": 4,
-              "reps": 20,
-              "rest": "1 min"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Séance 2",
-          "exercises": [
-            {
-              "id": 6,
-              "name": "Clean kettlebell",
-              "image": "/src/assets/kettlebell/Clean_kettlebell.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 7,
-              "name": "Développé couché incliné",
-              "image": "/src/assets/developpe_couche_incline.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 8,
-              "name": "Extension des mollets avec haltères",
-              "image": "/src/assets/extension_mollets.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 9,
-              "name": "Tirage horizontal",
-              "image": "/src/assets/tirage_horizontal.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 10,
-              "name": "Relevé de genoux suspendu à une barre",
-              "image": "/src/assets/releve_de_genoux.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Séance 3",
-          "exercises": [
-            {
-              "id": 11,
-              "name": "Curl allongé",
-              "image": "/src/assets/curl_allonge.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 12,
-              "name": "Soulevé de terre",
-              "image": "/src/assets/souleve_de_terre.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 13,
-              "name": "Tirage vertical",
-              "image": "/src/assets/tirage_vertical.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 14,
-              "name": "Extension lombaire sur banc",
-              "image": "/src/assets/extension_lombaire.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 15,
-              "name": "Pompes",
-              "image": "/src/assets/pompes.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Fullbody",
-      "image": "/src/assets/programmes/fullbody.jpg",
-      "sessions": [
-        {
-          "id": 1,
-          "name": "Séance 1",
-          "exercises": [
-            {
-              "id": 1,
-              "name": "Développé couché",
-              "image": "/src/assets/developpe_couche.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 2,
-              "name": "Fentes avec haltères",
-              "image": "/src/assets/fentes_halteres.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 3,
-              "name": "Tirage vertical",
-              "image": "/src/assets/tirage_vertical.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 4,
-              "name": "Soulevé de terre",
-              "image": "/src/assets/souleve_de_terre.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 5,
-              "name": "Crunch",
-              "image": "/src/assets/crunch.jpg",
-              "sets": 4,
-              "reps": 20,
-              "rest": "1 min"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Séance 2",
-          "exercises": [
-            {
-              "id": 6,
-              "name": "Presse à cuisses",
-              "image": "/src/assets/presse_a_cuisses.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 7,
-              "name": "Curl allongé",
-              "image": "/src/assets/curl_allonge.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 8,
-              "name": "Pompes",
-              "image": "/src/assets/pompes.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 9,
-              "name": "Extension des mollets avec haltères",
-              "image": "/src/assets/extension_mollets.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 10,
-              "name": "Machine à abdos",
-              "image": "/src/assets/machine_abdos.jpg",
-              "sets": 4,
-              "reps": 20,
-              "rest": "1 min"
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Séance 3",
-          "exercises": [
-            {
-              "id": 11,
-              "name": "Swing kettlebell",
-              "image": "/src/assets/kettlebell/Swing_kettlebell.jpg",
-              "sets": 4,
-              "reps": 20,
-              "rest": "1 min"
-            },
-            {
-              "id": 12,
-              "name": "Développé couché incliné",
-              "image": "/src/assets/developpe_couche_incline.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min 30"
-            },
-            {
-              "id": 13,
-              "name": "Relevé de genoux suspendu à une barre",
-              "image": "/src/assets/releve_de_genoux.jpg",
-              "sets": 4,
-              "reps": 15,
-              "rest": "1 min"
-            },
-            {
-              "id": 14,
-              "name": "Tirage horizontal",
-              "image": "/src/assets/tirage_horizontal.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min"
-            },
-            {
-              "id": 15,
-              "name": "Curl biceps avec barre",
-              "image": "/src/assets/curl_biceps.jpg",
-              "sets": 4,
-              "reps": 12,
-              "rest": "1 min"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Débutant",
+    "image": "/src/assets/programmes/débutant.jpg",
+    "sessions": [
+      {
+        "id": 1,
+        "name": "Séance 1",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Clean kettlebell",
+            "image": "/src/assets/kettlebell/Clean_kettlebell.jpg",
+            "sets": 3,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 2,
+            "name": "Snatch kettlebell",
+            "image": "/src/assets/kettlebell/Snatch_kettlebell.jpg",
+            "sets": 3,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 3,
+            "name": "Swing kettlebell",
+            "image": "/src/assets/kettlebell/Swing_kettlebell.jpg",
+            "sets": 3,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 4,
+            "name": "Tirage vertical",
+            "image": "/src/assets/dos/tirage_verticale_poitrine.jpg",
+            "sets": 3,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 5,
+            "name": "Presse à cuisses",
+            "image": "/src/assets/machine/presse_cuisse.jpg",
+            "sets": 3,
+            "reps": 15,
+            "rest": "1 min"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Séance 2",
+        "exercises": [
+          {
+            "id": 6,
+            "name": "Développé couché incliné",
+            "image": "/src/assets/barre/developpe_incline_barre.jpg",
+            "sets": 3,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 7,
+            "name": "Extension des mollets avec haltères",
+            "image": "/src/assets/mollet/extension_mollets_altere.jpg",
+            "sets": 3,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 8,
+            "name": "Machine à abdos",
+            "image": "/src/assets/machine/crunch_machine.jpg",
+            "sets": 3,
+            "reps": 20,
+            "rest": "1 min"
+          },
+          {
+            "id": 9,
+            "name": "Fentes avec barre",
+            "image": "/src/assets/barre/fente_barre.jpg",
+            "sets": 3,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 10,
+            "name": "Relevé de genoux suspendu à une barre",
+            "image": "/src/assets/abdos/releve_genoux.jpg",
+            "sets": 3,
+            "reps": 15,
+            "rest": "1 min"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Séance 3",
+        "exercises": [
+          {
+            "id": 11,
+            "name": "Curl altere",
+            "image": "/src/assets/biceps/curl_altere_white.png",
+            "sets": 3,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 12,
+            "name": "Crunch",
+            "image": "/src/assets/abdos/crunch.jpg",
+            "sets": 3,
+            "reps": 20,
+            "rest": "1 min"
+          },
+          {
+            "id": 13,
+            "name": "Tirage vertical",
+            "image": "/src/assets/dos/tirage_verticale_poitrine.jpg",
+            "sets": 3,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 14,
+            "name": "Soulevé de terre",
+            "image": "/src/assets/barre/souleve_terre.jpg",
+            "sets": 3,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 15,
+            "name": "Pullover",
+            "image": "/src/assets/pectoraux/pullover.jpg",
+            "sets": 3,
+            "reps": 12,
+            "rest": "1 min 30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Maison",
+    "image": "/src/assets/programmes/maison.jpg",
+    "sessions": [
+      {
+        "id": 1,
+        "name": "Séance 1",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Clean kettlebell",
+            "image": "/src/assets/kettlebell/Clean_kettlebell.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 2,
+            "name": "Swing kettlebell",
+            "image": "/src/assets/kettlebell/Swing_kettlebell.jpg",
+            "sets": 4,
+            "reps": 20,
+            "rest": "1 min"
+          },
+          {
+            "id": 3,
+            "name": "Snatch kettlebell",
+            "image": "/src/assets/kettlebell/Snatch_kettlebell.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 4,
+            "name": "Crunch",
+            "image": "/src/assets/abdos/crunch.jpg",
+            "sets": 4,
+            "reps": 25,
+            "rest": "1 min"
+          },
+          {
+            "id": 5,
+            "name": "Traction supination",
+            "image": "/src/assets/dos/traction_supination.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Séance 2",
+        "exercises": [
+          {
+            "id": 6,
+            "name": "raction pronation",
+            "image": "/src/assets/dos/traction_pronation.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 7,
+            "name": "Élevation frontal",
+            "image": "/src/assets/épaule/elevation_frontale_barre.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 8,
+            "name": "Fentes avec barre",
+            "image": "/src/assets/barre/fente_barre.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 9,
+            "name": "Extension des mollets avec haltères",
+            "image": "/src/assets/mollet/extension_mollets_altere.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 10,
+            "name": "Barre front",
+            "image": "/src/assets/triceps/barre_front.png",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Séance 3",
+        "exercises": [
+          {
+            "id": 11,
+            "name": "Dips",
+            "image": "/src/assets/pdc/dips.jpg",
+            "sets": 4,
+            "reps": 20,
+            "rest": "1 min"
+          },
+          {
+            "id": 12,
+            "name": "Kickback",
+            "image": "/src/assets/triceps/kickback.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 13,
+            "name": "Pullover",
+            "image": "/src/assets/pectoraux/pullover.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 14,
+            "name": "Relevé de genoux suspendu à une barre",
+            "image": "/src/assets/pdc/releve_genoux.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 15,
+            "name": "Soulevé de terre",
+            "image": "/src/assets/barre/souleve_terre.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Perte de poids",
+    "image": "/src/assets/programmes/perte_de_poids.jpg",
+    "sessions": [
+      {
+        "id": 1,
+        "name": "Séance 1",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Swing kettlebell",
+            "image": "/src/assets/kettlebell/Swing_kettlebell.jpg",
+            "sets": 4,
+            "reps": 20,
+            "rest": "1 min"
+          },
+          {
+            "id": 2,
+            "name": "Fentes avec barre",
+            "image": "/src/assets/barre/fente_barre.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 3,
+            "name": "Crunch",
+            "image": "/src/assets/abdos/crunch.jpg",
+            "sets": 4,
+            "reps": 25,
+            "rest": "1 min"
+          },
+          {
+            "id": 4,
+            "name": "Presse à cuisses",
+            "image": "/src/assets/machine/presse_cuisse.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 5,
+            "name": "Machine à abdos",
+            "image": "/src/assets/machine/crunch_machine.jpg",
+            "sets": 4,
+            "reps": 20,
+            "rest": "1 min"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Séance 2",
+        "exercises": [
+          {
+            "id": 6,
+            "name": "Clean kettlebell",
+            "image": "/src/assets/kettlebell/Clean_kettlebell.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 7,
+            "name": "Développé couché incliné",
+            "image": "/src/assets/barre/developpe_incline_barre.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 8,
+            "name": "Extension des mollets avec haltères",
+            "image": "/src/assets/mollet/extension_mollets_altere.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 9,
+            "name": "Tirage vertical",
+            "image": "/src/assets/dos/tirage_verticale_poitrine.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 10,
+            "name": "Relevé de genoux suspendu à une barre",
+            "image": "/src/assets/abdos/releve_genoux.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Séance 3",
+        "exercises": [
+          {
+            "id": 11,
+            "name": "Curl altere",
+            "image": "/src/assets/biceps/curl_altere_white.png",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 12,
+            "name": "Soulevé de terre",
+            "image": "/src/assets/barre/souleve_terre.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 13,
+            "name": "Tirage vertical",
+            "image": "/src/assets/dos/tirage_vertical_poitrine.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 14,
+            "name": "Leg curl allongé",
+            "image": "/src/assets/ischios/leg_curl_allonge.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 15,
+            "name": "Développé militaire",
+            "image": "/src/assets/épaule/developper_militaire.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Fullbody",
+    "image": "/src/assets/programmes/fullbody.jpg",
+    "sessions": [
+      {
+        "id": 1,
+        "name": "Séance 1",
+        "exercises": [
+          {
+            "id": 1,
+            "name": "Développé couché",
+            "image": "/src/assets/pectoraux/developpe_incline_barre.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 2,
+            "name": "Fentes",
+            "image": "/src/assets/quadriceps/fente_barre.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 3,
+            "name": "Tirage vertical",
+            "image": "/src/assets/dos/tirage_verticale_poitrine.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 4,
+            "name": "Soulevé de terre",
+            "image": "/src/assets/ischios/souleve_terre.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 5,
+            "name": "Crunch",
+            "image": "/src/assets/abdos/crunch.jpg",
+            "sets": 4,
+            "reps": 20,
+            "rest": "1 min"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Séance 2",
+        "exercises": [
+          {
+            "id": 6,
+            "name": "Presse à cuisses",
+            "image": "/src/assets/machine/presse_cuisse.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 7,
+            "name": "Curl altere",
+            "image": "/src/assets/biceps/curl_altere_white.png",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 8,
+            "name": "Dips",
+            "image": "/src/assets/pdc/dips.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 9,
+            "name": "Extension des mollets avec haltères",
+            "image": "/src/assets/mollet/extension_mollets_altere.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 10,
+            "name": "Machine à abdos",
+            "image": "/src/assets/abdos/crunch_machine.jpg",
+            "sets": 4,
+            "reps": 20,
+            "rest": "1 min"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Séance 3",
+        "exercises": [
+          {
+            "id": 11,
+            "name": "Swing kettlebell",
+            "image": "/src/assets/kettlebell/Swing_kettlebell.jpg",
+            "sets": 4,
+            "reps": 20,
+            "rest": "1 min"
+          },
+          {
+            "id": 12,
+            "name": "Développé couché incliné",
+            "image": "/src/assets/pectoraux/developpe_incline_barre.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min 30"
+          },
+          {
+            "id": 13,
+            "name": "Relevé de genoux suspendu à une barre",
+            "image": "/src/assets/abdos/releve_genoux.jpg",
+            "sets": 4,
+            "reps": 15,
+            "rest": "1 min"
+          },
+          {
+            "id": 14,
+            "name": "Tirage verticale",
+            "image": "/src/assets/dos/tirage_verticale_poitrine.jpg",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min"
+          },
+          {
+            "id": 15,
+            "name": "Curl biceps avec barre",
+            "image": "/src/assets/biceps/curl_barre_white.png",
+            "sets": 4,
+            "reps": 12,
+            "rest": "1 min"
+          }
+        ]
+      }
+    ]
+  }
+]
