@@ -1,0 +1,36 @@
+.details_program_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.sessions_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sessions_container h2 {
+    margin: 1rem 0 0 1rem;
+}
+
+.session_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.session_content {
+    display: flex;
+    flex-direction: column;
+    background: #D9D9D9;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.session_content img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.mb1rem {
+    margin-bottom: 1rem;
+}

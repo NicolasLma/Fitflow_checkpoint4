@@ -21,7 +21,7 @@ export default function FilteredExercices() {
         {exercises.map((exercise) => (
           <div key={exercise.id} className="exercise_item">
             <h3>{exercise.name}</h3>
-            <Link 
+            <Link
               to={`/détailsexercices/${exercise.id}`}
               state={{ exercise: exercise, muscleId: id, muscleName: muscle }}
             >

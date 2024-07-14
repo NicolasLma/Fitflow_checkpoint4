@@ -12,15 +12,8 @@ export default function Programs() {
     axios
       .get("/src/data/programs.json")
       .then((response) => {
-        try {
-          console.log(
-            "Données des programmes récupérées avec succès :",
-            response.data
-          );
-          setProgramsData(response.data);
-        } catch (error) {
-          console.error("Erreur lors de l'affichage dans la console :", error);
-        }
+        console.log("Données des programmes récupérées avec succès :", response.data);
+        setProgramsData(response.data);
       })
       .catch((error) => {
         console.error("Erreur lors de la requête Axios :", error);
@@ -43,8 +36,8 @@ export default function Programs() {
             {programsData.map((program) => (
               <Link
                 key={program.id}
-                to={`/programmes/${program.id}`}
-                state={{ program: program }}
+                to={`/programmesdetails/${program.id}`} // Utilisez l'ID ou un identifiant unique pour chaque programme
+                state={{ program: program }} // Transmettez l'objet program entier via state
               >
                 <div className="img_programs">
                   <h3>{program.name}</h3>
