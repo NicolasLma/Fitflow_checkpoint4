@@ -17,7 +17,7 @@ const login = async (req, res) => {
             return res.status(401).json({ success: false, message: "Invalid credentials" });
         }
 
-        res.json({ success: true, user: { id: user.id, email: user.email } });
+        res.json({ success: true, user: { id: user.id, email: user.email, firstname: user.firstname, lastname: user.lastname } });
     } catch (error) {
         console.error("Error during login:", error);
         res.status(500).json({ success: false, message: "Internal server error" });
