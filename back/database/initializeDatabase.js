@@ -2,7 +2,6 @@ const fs = require("fs");
 const path = require("path");
 const pool = require("./db-connection");
 
-
 const initializeDatabase = async () => {
   try {
     const sqlPath = path.join(__dirname, "datas.sql");
@@ -12,12 +11,16 @@ const initializeDatabase = async () => {
       .split(";")
       .map((query) => query.trim())
       .filter((query) => query.length);
+
+    const connection = await pool.getConnection();
     for (const query of queries) {
-      await pool.query(query);
+      await connection.query(query);
     }
-    console.log("Database initialize sucessfully");
+    connection.release();
+
+    console.log("Database initialized successfully");
   } catch (error) {
-    console.error("Error initializing database,", error);
+    console.error("Error initializing database:", error);
   }
 };
 

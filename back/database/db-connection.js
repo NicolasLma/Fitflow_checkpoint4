@@ -2,9 +2,9 @@
 require('dotenv').config();
 // ce fichier ouvre une nouvelle connexion vers une base de données mysql
 
-const mysql2 = require("mysql2");
+const mysql = require('mysql2/promise');
 
-const pool = mysql2.createPool ( {
+const pool = mysql.createPool ( {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,

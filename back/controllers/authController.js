@@ -42,3 +42,9 @@ const register = async (req, res) => {
         res.status(500).json({sucess: false, message: "Internal server error"});
     }
 };
+
+const checkAuth = (req, res) => {
+    res.json({authenticated: true})
+};
+
+module.exports = {login, register, checkAuth};
