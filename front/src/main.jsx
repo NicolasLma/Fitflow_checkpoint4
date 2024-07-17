@@ -14,6 +14,7 @@ import Programs from "./pages/Programs";
 import DetailsPrograms from "./pages/DetailsPrograms";
 import Profile from "./pages/Profile";
 import FilteredExercicesEquipment from "./pages/FilteredExercicesEquipment";
+import { AuthProvider } from "./context/AuthContext";
 
 const router = createBrowserRouter([
   {
@@ -41,7 +42,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/exercicesfiltrésequipements/:id/:equipement",
-        element: <FilteredExercicesEquipment/> ,
+        element: <FilteredExercicesEquipment />,
       },
       {
         path: "/détailsexercices/:id",
@@ -64,5 +65,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <AuthProvider>
+    <RouterProvider router={router} />
+  </AuthProvider>
 );
