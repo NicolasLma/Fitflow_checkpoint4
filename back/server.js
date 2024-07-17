@@ -1,19 +1,20 @@
+const {initializeDatabase} = require("./database/initializeDatabase")
+
 //Ce fichier permet de générer un sereveur express sur un port donné
 
 const express = require("express");
 const cors = require("cors");
-const cookieParser = require("cookies-parser");
+const cookieParser = require("cookie-parser");
 
-const {initializeDatabase} = require("./")
 
-const routes = require("path");
-const authRoutes = require("path");
-const usersRoutes = require("path");
+const routes = require("./routes/routes");
+const authRoutes = require("./routes/authRoutes");
+const usersRoutes = require("./routes/usersRoutes");
 
 //Variable qui permet de stocker l'instance express
 const app = express();
 
-app.use(cors({ origin: CLIENT_URL}));
+app.use(cors({ origin: process.env.CLIENT_URL}));
 
 app.use(express.json());
 app.use(cookieParser());
