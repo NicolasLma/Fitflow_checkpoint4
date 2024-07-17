@@ -3,7 +3,7 @@ const { login, register } = require("../controllers/authController");
 const {
   checkLoginDatas,
   checkRegisterDatas,
-} = require("../service/middlewares/checkDatas");
+} = require("../services/checkDatas");
 
 const router = express.Router();
 
