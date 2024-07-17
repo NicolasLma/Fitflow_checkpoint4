@@ -1,47 +1,50 @@
 const argon2 = require("argon2");
-const { findOnebyEmail, createUser } = require("../models/user");
+const { findOneByEmail, createUser } = require("../models/user");
 
 const login = async (req, res) => {
-  const { email, password } = req.body;
-  const user = await findOnebyEmail(email);
-
-  if (!user) {
-    return res
-      .status(401)
-      .json({ sucess: false, message: "Invalid credentials" });
-  }
-
-  const passwordMatch = await argon2.verify(user.password, password);
-
-  if (!passwordMatch) {
-    return res
-      .status(401)
-      .json({ sucess: false, message: "Invalid credentials" });
-  }
-
-  res.json({ sucess: true, user: {id: user.id, emeil: user.email}});
-};
-
-const register = async (req, res) => {
-    const { email, password, firstname, lastname} = req.body;
-    console.log(email, password, firstname, lastname);
-
-    const hashedPassword = await argon2.hash(password);
-    console.log(hashedPassword);
+    const { email, password } = req.body;
 
     try {
+        const user = await findOneByEmail(email);
+
+        if (!user) {
+            return res.status(401).json({ success: false, message: "Invalid credentials" });
+        }
+
+        const passwordMatch = await argon2.verify(user.password, password);
+
+        if (!passwordMatch) {
+            return res.status(401).json({ success: false, message: "Invalid credentials" });
+        }
+
+        res.json({ success: true, user: { id: user.id, email: user.email } });
+    } catch (error) {
+        console.error("Error during login:", error);
+        res.status(500).json({ success: false, message: "Internal server error" });
+    }
+};
+
+
+const register = async (req, res) => {
+    const { email, password, firstname, lastname } = req.body;
+
+    try {
+        const hashedPassword = await argon2.hash(password);
+
         const userId = await createUser({
             email,
             password: hashedPassword,
             firstname,
             lastname,
         });
-        res.json({sucess: true, userId: userId.toString()});
+
+        res.json({ success: true, userId: String(userId) }); //a voir pour me retourner id en undefined
     } catch (error) {
         console.error("Error registering user :", error);
-        res.status(500).json({sucess: false, message: "Internal server error"});
+        res.status(500).json({ success: false, message: "Internal server error" });
     }
 };
+
 
 const checkAuth = (req, res) => {
     res.json({authenticated: true})
