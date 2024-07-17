@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import imgRegister from "../assets/accueil.jpg";
 import iconesFitflowWhite from "../assets/logo_fitflow_white.png";
-
+import axios from "axios";  // Importer axios
+import { useNavigate } from "react-router-dom";  // Importer useNavigate
 import "../styles/Registration.css";
 
 export default function Registration() {
@@ -14,6 +15,8 @@ export default function Registration() {
   });
 
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState(false);  // Ajout d'un état pour le succès
+  const navigate = useNavigate();  // Initialiser useNavigate
 
   const handleChangeForm = (event) => {
     const { name, value } = event.target;
@@ -25,7 +28,7 @@ export default function Registration() {
     return emailRegex.test(email);
   };
 
-  const togglePopup = (event) => {
+  const togglePopup = async (event) => {
     event.preventDefault();
 
     if (inscription.nom === "") {
@@ -42,14 +45,32 @@ export default function Registration() {
       setError("Les mots de passe ne correspondent pas.");
     } else {
       setError("");
-      // Ici vous pouvez traiter l'inscription ou réinitialiser le formulaire
-      setInscription({
-        email: "",
-        nom: "",
-        prenom: "",
-        mp: "",
-        confirmationMp: "",
-      });
+
+      try {
+        const apiUrl = import.meta.env.VITE_API_URL;  // URL de votre API
+        const response = await axios.post(`${apiUrl}/auth/register`, {
+          email: inscription.email,
+          password: inscription.mp,
+          firstname: inscription.prenom,
+          lastname: inscription.nom,
+        });
+
+        if (response.data.success) {
+          setSuccess(true);  // Définir le succès sur true si l'inscription réussit
+          setInscription({
+            email: "",
+            nom: "",
+            prenom: "",
+            mp: "",
+            confirmationMp: "",
+          });
+          navigate("/profil");  // Rediriger vers la page profil
+        } else {
+          setError(response.data.message || "Erreur lors de l'inscription.");
+        }
+      } catch (error) {
+        setError(error.response?.data?.message || "Erreur lors de l'inscription.");
+      }
     }
   };
 
@@ -63,7 +84,7 @@ export default function Registration() {
           alt=""
         />
       </section>
-      <form action="">
+      <form onSubmit={togglePopup}>
         <input
           className="inputIns"
           type="text"
@@ -105,10 +126,10 @@ export default function Registration() {
           required
         />
         {error && <p className="error">{error}</p>}
+        {success && <p className="success">Inscription réussie !</p>} {/* Afficher le succès */}
         <button
           className="button_register"
           type="submit"
-          onClick={togglePopup}
         >
           S'inscrire
         </button>
