@@ -6,7 +6,7 @@ const AuthContext = createContext(null);
 export const useAuth = () => useContext(AuthContext);
 
 export function AuthProvider({ children }) {
-  const [auth, setAuth] = useState(null);
+  const [auth, setAuth] = useState("toto");
 
   function login(userData) {
     setAuth(userData);
