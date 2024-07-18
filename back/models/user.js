@@ -13,7 +13,7 @@ const createUser = async (user) => {
             "INSERT INTO users (email, password, firstname, lastname) VALUES (?, ?, ?, ?)",
             [user.email, user.password, user.firstname, user.lastname]
         );
-        return result.insertId
+        return (result.insertId)
     } catch (error) {
         console.error("Error creating user", error);
         throw error;
