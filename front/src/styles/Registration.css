@@ -21,6 +21,8 @@
   height: 100%;
   object-fit: cover;
   border-radius: 40px;
+  position: absolute;
+  z-index: 0;
 }
 
 .icon_fitflow_register {
@@ -72,4 +74,40 @@
   margin-top: 0.5rem;
   margin-bottom: 0;
   color: red;
+}
+
+@media screen and (min-width: 1024px) {
+  .register_container {
+    height: 100vh;
+  }
+
+  .bg_img_register {
+    height: 50rem;
+    width: 80rem;
+    bottom: -431px;
+    padding: 1rem;
+  }
+
+  .register_content {
+    width: 95vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center; /* Centre horizontalement */
+      align-items: center; /* Centre verticalement */
+      margin: 2rem 0rem 2rem 0rem;
+  }
+
+  .register_container input {
+    background: #ffffffd6;
+    border: none;
+  }
+
+  .register_container form {
+    position: relative;
+      z-index: 5;
+      width: 300px;
+      bottom: 10rem;
+  }
+
+
 }

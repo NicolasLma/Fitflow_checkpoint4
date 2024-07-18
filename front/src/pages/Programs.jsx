@@ -31,7 +31,7 @@ export default function Programs() {
           <img src={logoFitflowBlack} alt="Fitflow Logo" />
         </section>
         <section className="programs_content">
-          <h1>Programmes</h1>
+          <h1>PROGRAMMES</h1>
           <section className="programs">
             {programsData.map((program) => (
               <Link

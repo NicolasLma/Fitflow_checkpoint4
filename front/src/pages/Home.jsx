@@ -11,18 +11,20 @@ export default function Home() {
         <img className="bg_img" src={imgHome} alt="" />
         <img className="icon_fitflow" src={iconesFitflowWhite} alt="" />
         <h2 className="mess_bvn">
-          Bienvenus chez <span className="bold">FITFLOW</span> <br />{" "}
+          Bienvenus chez <br /> <span className="bold">FITFLOW</span> <br />{" "}
           <span className="no_pain">
             Planifiez votre entraînement avec nous
           </span>
         </h2>
       </section>
+      
+
       <Link to="/connexion" className="button_home">
         <button>Connexion</button>
       </Link>
       <Link to="inscription" className="button_home">
         <button>Inscription</button>
       </Link>
-    </section>
+      </section>
   );
 }

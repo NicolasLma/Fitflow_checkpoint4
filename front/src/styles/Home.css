@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 
 .home_content {
@@ -21,6 +22,8 @@
   height: 100%;
   object-fit: cover;
   border-radius: 40px;
+  position: absolute;
+  z-index: 0;
 }
 
 .icon_fitflow {
@@ -88,4 +91,59 @@
   font-weight: inherit;
   cursor: pointer;
   outline: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .home_container {
+    height: 100vh;
+  }
+
+  .bg_img {
+    height: 50rem;
+    width: 80rem;
+    bottom: -138px;
+    padding: 1rem;
+  }  
+
+  .home_content {
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    margin: 2rem 0rem 2rem 0rem;
+  }
+
+  
+  .button_home {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10rem; /* Ajuste la distance depuis le bas de l'image */
+    left: 15%;
+    transform: translateX(-50%); /* Centrer horizontalement */
+    width: 400px; /* Ajustez la largeur selon vos besoins */
+    z-index: 3;
+    background-color: #ffffffd1;
+    color: #1e1e1e;
+  }
+
+  .icon_fitflow {
+    width: 8rem;
+  }
+
+  .mess_bvn {
+    bottom: 15rem;
+    font-size: 32px;
+  }
+
+  .bold {
+    font-weight: 500;
+    font-size: 96px;
+  }
+
+  .no_pain {
+    font-size: 28px;
+  }
 }

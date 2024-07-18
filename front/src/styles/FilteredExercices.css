@@ -36,7 +36,33 @@
 .exercise_item img {
     border-radius: 20px;
     width: 100%;
-    height: 20%;
+    height: 15rem;
 border: 1px solid; 
 border-color: #1e1e1e;   
+}
+
+@media screen and (min-width: 1024px) {
+
+  .header_filtered_exo {
+    background: none;
+    color: #1e1e1e;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 6rem;
+  }
+
+  .header_filtered_exo img {
+    background: #1e1e1e;
+  }
+
+  .exercise_item {
+    height: 50%;
+    width: 50%;
+    padding: 1rem;
+}
+
+  .exercise_item img {
+    width: 100%;
+  }
+
 }

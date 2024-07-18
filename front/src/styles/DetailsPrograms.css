@@ -6,6 +6,7 @@
 .sessions_container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 6rem;
 }
 
 .sessions_container h2 {
@@ -29,8 +30,31 @@
 .session_content img {
     width: 100%;
     border-radius: 2rem;
+    height: 15rem;
 }
 
 .mb1rem {
     margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+.details_program_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sessions_container {
+    width: 100vw;
+    flex-direction: row;
+}
+
+.session_item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
 }

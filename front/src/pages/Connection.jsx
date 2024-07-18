@@ -71,8 +71,8 @@ export default function Connection() {
           src={iconesFitflowWhite}
           alt=""
         />
-        <h2 className="mess_bvn">
-          Bienvenus chez <span className="bold">FITFLOW</span> <br />{" "}
+        <h2 className="mess_bvn_connection">
+          Bienvenus chez <br /> <span className="bold">FITFLOW</span> <br />{" "}
           <span className="no_pain">
             Planifiez votre entraînement avec nous
           </span>
