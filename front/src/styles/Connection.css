@@ -84,44 +84,47 @@
 }
 
 .error {
-    padding-left: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0;
-    color: red;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  color: red;
+}
+
+@media screen and (min-width: 1024px) {
+  .connection_container {
+    height: 100vh;
   }
 
-  @media screen and (min-width: 1024px) {
+  .bg_img_connection {
+    height: 50rem;
+    width: 80rem;
+    bottom: -229px;
+    padding: 1rem;
+  }
 
-    .connection_container {
-      height: 100vh;
-    }
+  .connection_content {
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    margin: 2rem 0rem 2rem 0rem;
+  }
 
-    .bg_img_connection {
-      height: 50rem;
-      width: 80rem;
-      bottom: -229px;
-      padding: 1rem;
-    }  
+  .connection_container form {
+    position: relative;
+    z-index: 5;
+    width: 300px;
+    bottom: 10rem;
+  }
 
-    .connection_content {
-      width: 95vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center; /* Centre horizontalement */
-      align-items: center; /* Centre verticalement */
-      margin: 2rem 0rem 2rem 0rem;
-    }
+  .connection_container input {
+    background: #ffffffd6;
+    border: none;
+  }
 
-    .connection_container form {
-      position: relative;
-      z-index: 5;
-      width: 400px;
-      bottom: 10rem;
-    }
-
-    .mess_bvn_connection {
-      bottom: 12rem;
+  .mess_bvn_connection {
+    bottom: 12rem;
     font-size: 32px;
-    }
-
   }
+}
