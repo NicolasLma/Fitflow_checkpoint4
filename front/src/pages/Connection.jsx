@@ -48,13 +48,14 @@ export default function Connection() {
   const navigate = useNavigate(); // Initialisez useNavigate
 
 
-  const {auth, login} = useAuth();
+  const {auth, login, } = useAuth();
 
   const handleLogin = async (e) => {
     e.preventDefault();
 
     try {
       const response = await axios.post(`${apiUrl}/auth/login`, {email, password})
+      console.log("Login response:", response.data); // Vérifier le contenu de la réponse
       login(response.data.user);
       navigate("/profil"); // Redirigez vers la page profil après une connexion réussie
     } catch (error) {

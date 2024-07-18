@@ -6,7 +6,7 @@ const AuthContext = createContext(null);
 export const useAuth = () => useContext(AuthContext);
 
 export function AuthProvider({ children }) {
-  const [auth, setAuth] = useState("toto");
+  const [auth, setAuth] = useState(null);
 
   function login(userData) {
     setAuth(userData);
@@ -30,6 +30,7 @@ export function AuthProvider({ children }) {
       localStorage.removeItem("auth");
     }
   }, [auth]);
+
 
   const value = useMemo(() => ({ auth, login, logout }), [auth]);
 
