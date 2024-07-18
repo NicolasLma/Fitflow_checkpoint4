@@ -85,6 +85,7 @@ export default function Exercices() {
           </section>
         </section>
       </section>
+
       <NavBar />
     </>
   );

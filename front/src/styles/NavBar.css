@@ -16,3 +16,13 @@
 .nav_container img {
     width: 33px;
 }
+
+@media screen and (min-width: 1024px) {
+    .nav_container {
+        top: 1rem;
+        bottom: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30%;
+    }
+}

@@ -61,3 +61,14 @@ object-fit: cover;
     padding: 1rem; /* Ajout de padding pour l'espace intérieur */
 }
 
+@media screen and (min-width: 1024px) {
+
+.logo_center img {
+    display: none;
+}
+
+.exercices_container {
+    margin-top: 10rem;
+}
+
+}
