@@ -17,6 +17,8 @@ console.log(username);
       <section className="logo_center">
         <img src={logoFitflowBlack} alt="Fitflow Logo" />
       </section>
+      <section className="big_coontainer">
+
       <section className="container_profile">
         <section className="header_profile">
           <img src={imgUser} alt="" />
@@ -29,6 +31,7 @@ console.log(username);
         <button onClick={logout} className="button_user">
           Déconnexion
         </button>
+      </section>
       </section>
       <NavBar />
     </>
