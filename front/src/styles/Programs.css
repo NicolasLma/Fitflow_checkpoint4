@@ -42,3 +42,23 @@
   max-height: 100%; /* Assure que l'image ne dépasse pas la hauteur de son conteneur */
   border-radius: 20px;
 }
+
+@media screen and (min-width: 1024px) {
+
+  .programs_container {
+    margin-top: 8rem;
+  }
+
+  .programs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
+
+  .img_programs h3 {
+    bottom: 12px;
+  }
+
+  
+
+}

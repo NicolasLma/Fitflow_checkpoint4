@@ -21,7 +21,7 @@
     .nav_container {
         top: 1rem;
         bottom: auto;
-        left: 50%;
+        left: 45%;
         transform: translateX(-50%);
         width: 30%;
     }
