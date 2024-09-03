@@ -1,0 +1,130 @@
+.connection_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.connection_content {
+  display: flex;
+  position: relative;
+  width: 90%;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bg_img_connection {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+  position: absolute;
+  z-index: 0;
+}
+
+.icon_fitflow_connection {
+  position: absolute;
+  top: -10px;
+  width: 130px;
+  height: auto;
+  z-index: 1;
+}
+
+.connection_container form {
+  width: 90%;
+}
+
+.connection_container input {
+  width: 100%;
+  border: 2px solid #1e1e1e; /* Bordure personnalisée */
+  border-radius: 40px;
+  height: 51px;
+  margin-top: 1rem;
+  outline: none; /* Supprimer l'outline par défaut */
+  padding-left: 1rem;
+}
+
+.button_connection {
+  display: inline-block;
+  border: none;
+  border-radius: 40px;
+  background-color: #1e1e1e;
+  color: white;
+  width: 100%;
+  height: 51px;
+  margin-top: 0.8rem;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 51px;
+  text-decoration: none;
+}
+
+.button_connection:hover {
+  background-color: #65fb8d;
+  color: black;
+  transition: 1s;
+}
+
+.mess_bvn_connection {
+  position: absolute;
+  bottom: 10px;
+  width: 70%;
+  height: auto;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 1rem;
+}
+
+.error {
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  color: red;
+}
+
+@media screen and (min-width: 1024px) {
+  .connection_container {
+    height: 100vh;
+  }
+
+  .bg_img_connection {
+    height: 50rem;
+    width: 80rem;
+    bottom: -229px;
+    padding: 1rem;
+  }
+
+  .connection_content {
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    margin: 2rem 0rem 2rem 0rem;
+  }
+
+  .connection_container form {
+    position: relative;
+    z-index: 5;
+    width: 300px;
+    bottom: 10rem;
+  }
+
+  .connection_container input {
+    background: #ffffffd6;
+    border: none;
+  }
+
+  .mess_bvn_connection {
+    bottom: 12rem;
+    font-size: 32px;
+  }
+}

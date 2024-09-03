@@ -1,0 +1,24 @@
+.exercise_details {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .exercise_details h2, h4 {
+    padding: 1rem;
+  } 
+
+  .exercise_details li {
+    padding: 0.5rem;
+  }
+  
+  .exercise_details img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .nav_exo_detail {
+    margin-top: 6rem;
+  }

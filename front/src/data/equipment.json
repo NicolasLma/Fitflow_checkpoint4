@@ -1,0 +1,524 @@
+{
+  "equipments_exos": [
+    {
+      "id": 1,
+      "equipment": "Barre",
+      "image": "/src/assets/equipment/exo_barre.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Barre au front à la barre",
+          "image": "/src/assets/barre/barre_front.png",
+          "description": [
+            "1. Asseyez-vous à l’extrémité d’un banc plat avec une barre d’haltères sur vos cuisses.",
+            "2. Saisissez la barre avec une prise en main en pronation (paumes vers le bas), les mains étant écartées de la largeur des épaules.",
+            "3. Allongez-vous sur le dos et amenez la barre sur votre poitrine. Tendez les bras au-dessus de cette dernière.",
+            "4. En gardant les coudes immobiles et non pointés vers l’extérieur, abaissez lentement la barre jusqu’à ce qu’elle soit à environ 2 cm de votre front.",
+            "5. Faites une pause, puis tendez lentement les bras pour revenir à la position de départ.",
+            "6. Ne verrouillez pas vos coudes, puis répétez l’exercice jusqu’à ce que vous ayez atteint le nombre de répétitions souhaité."
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Développé incliné à la barre",
+          "image": "/src/assets/barre/developpe_incline_barre.jpg",
+          "description": [
+            "1. Allongez-vous sur un banc incliné à un angle de 30 à 45 degrés.",
+            "2. Placez vos omoplates en les serrant l’une contre l’autre et en les plaquant contre le banc.",
+            "3. Saisissez la barre avec une prise large, supérieure à celle des épaules, en assurant que les poignets sont droits pour soutenir la charge.",
+            "4. Rentrez légèrement les coudes pour éviter de forcer sur les épaules.",
+            "5. Inspirez profondément et, si nécessaire, laissez votre partenaire d’entraînement vous aider à soulever la barre.",
+            "6. Laissez la barre se stabiliser et assurez-vous que le haut du dos reste bien contracté après le décollage de la barre.",
+            "7. Inspirez à nouveau et laissez la barre descendre lentement en relâchant les coudes.",
+            "8. Descendez la barre en ligne droite jusqu’à effleurer votre poitrine, tout en rentrant les omoplates.",
+            "9. Poussez sur vos talons au sol, puis remontez la barre jusqu’en haut en contractant les muscles de la poitrine tout au long du mouvement.",
+            "10. Répétez ce mouvement jusqu’à ce que vous ayez atteint le nombre de répétitions souhaité."
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Développé militaire à la barre",
+          "image": "/src/assets/barre/developper_militaire.jpg",
+          "description": [
+            "1. En position debout, les pieds sont écartés de la largeur des épaules et le poids est réparti uniformément sur chaque pied.",
+            "2. Mettez votre corps en tension en contractant vos abdominaux et vos quadriceps et en serrant vos fessiers. Ouvrez votre poitrine et poussez légèrement votre tête en arrière pour laisser suffisamment de place au passage de la barre.",
+            "3. Tournez vos épaules de manière à ce que vos coudes soient dirigés vers le bas. La barre doit reposer dans le creux de vos paumes.",
+            "4. Commencez le mouvement de montée en dépliant vos coudes et en poussant la barre vers le haut tout en maintenant une colonne vertébrale neutre. Vos omoplates doivent bouger naturellement pendant que vos bras s’éloignent du corps.",
+            "5. Continuez à pousser la barre au-dessus de votre tête jusqu’à ce que vos bras soient tendus et que vos coudes soient légèrement fléchis. Faites une pause d’une seconde au sommet du mouvement.",
+            "6. Pour le mouvement de descente, ramenez lentement la barre vers le bas en pliant les coudes et en freinant la barre avec vos dorsaux jusqu’à revenir à la position de départ."
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Élevation frontale à la barre",
+          "image": "/src/assets/barre/elevation_frontale_barre.jpg",
+          "description": [
+            "1. Tenez-vous debout, les pieds écartés à la largeur des épaules. Gardez le dos droit et les pieds à plat sur le sol. Vos bras tenant la barre doivent pendre vers le bas.",
+            "2. Mettez la barre horizontalement devant les cuisses, les paumes des mains tournées vers l’arrière. Assurez-vous d’avoir une prise ferme.",
+            "3. Maintenez les muscles abdominaux sous tension.",
+            "4. Inspirez et soulevez la barre vers le haut, les bras tendus vers l’avant et les paumes de mains orientées vers le sol. Gardez les coudes légèrement fléchis pour réduire le stress sur les articulations des coudes. Marquez un temps d’arrêt lorsque les bras sont à peu près à l’horizontale par rapport au sol et profitez-en pour contracter fortement les muscles des épaules.",
+            "5. Ramenez la barre à la position de départ au niveau des cuisses avec un mouvement lent et contrôlé tout en expirant.",
+            "6. Répétez ce mouvement jusqu’à ce que vous ayez atteint le nombre de répétitions et de séries souhaité."
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Extension verticale à la barre",
+          "image": "/src/assets/barre/extension_verticale_barre.jpg",
+          "description": [
+            "1. Asseyez-vous droit sur un banc et tenez une barre au-dessus de votre tête avec les bras tendus, mains écartées de la largeur des épaules.",
+            "2. Abaissez ensuite lentement la barre derrière votre tête, les coudes légèrement vers l’intérieur, jusqu’à ce que vos avant-bras soient parallèles au sol. Inspirez pendant cette partie du mouvement.",
+            "3. Remontez la barre jusqu’à la position de départ en fléchissant les triceps, sans verrouiller la position en haut du mouvement. Expirez durant cette phase.",
+            "4. Répétez ce mouvement jusqu’à ce que vous ayez réalisé le nombre de répétitions souhaité."
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Fente à la barre",
+          "image": "/src/assets/barre/fente_barre.jpg",
+          "description": [
+            "1. Chargez la barre dans un rack à squats.",
+            "2. Passez sous la barre et placez-la à l’arrière de vos épaules comme si vous alliez faire un squat.",
+            "3. Dégagez doucement la barre du rack jusqu’à ce que vous ayez suffisamment d’espace devant vous pour faire un grand pas en avant.",
+            "4. Faites un grand pas en avant avec une jambe, en posant doucement votre pied avant à plat sur le sol.",
+            "5. Abaissez simultanément votre genou arrière vers le bas jusqu’à former un angle de 90 degrés.",
+            "6. Avec la force de votre cuisse avant, remontez en position haute avec un mouvement fluide, en maintenant l’équilibre.",
+            "7. Répétez le mouvement avec la même jambe jusqu’à ce que vous ayez atteint le nombre de répétitions souhaité.",
+            "8. Changez de jambe et effectuez le même nombre de répétitions, ou alternez de jambe à chaque répétition."
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Soulevé de terre",
+          "image": "/src/assets/barre/souleve_terre.jpg",
+          "description": [
+            "1. Trouvez un espace suffisant et placez une barre de musculation sur le sol.",
+            "2. Approchez-vous de la barre et positionnez-vous de manière à ce qu'elle soit juste au-dessus de vos pieds, avec vos pieds écartés à la largeur des épaules.",
+            "3. Penchez-vous en avant en gardant votre colonne vertébrale neutre et vos épaules rétractées en arrière. Assurez-vous que vos hanches restent au-dessus de vos genoux. C’est votre position de départ.",
+            "4. Saisissez la barre avec une prise en pronation (mains par-dessus).",
+            "5. Inspirez profondément, retenez votre souffle et soulevez la barre du sol en gardant le bas du dos droit. Assurez-vous que la barre suit une ligne droite pendant que vous tendez les genoux et les hanches. Expirez au sommet du mouvement.",
+            "6. Une fois que vous avez verrouillé les hanches, inversez le mouvement en reculant les hanches et en vous penchant en avant. Fléchissez également les jambes durant cette phase de descente pour abaisser la barre.",
+            "7. Une fois la barre au sol, remettez-vous en position initiale et répétez le mouvement jusqu’au nombre de répétitions souhaité."
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Squat à la barre",
+          "image": "/src/assets/barre/squat_barre.jpg",
+          "description": [
+            "1. Préparez la barre en la plaçant juste en dessous de la hauteur des épaules et en la chargeant avec la charge que vous souhaitez utiliser.",
+            "2. Mettez-vous sous la barre, les pieds écartés de la largeur des épaules.",
+            "3. Placez la barre sur les muscles du haut de votre dos (trapèzes supérieurs), pas sur votre colonne vertébrale. Assurez-vous que la position est confortable.",
+            "4. Placez vos mains derrière le dos et saisissez la barre avec une prise large pour plus de stabilité.",
+            "5. Fléchissez les genoux et redressez le dos pour retirer la barre du rack.",
+            "6. Gardez le dos droit et le regard en avant, poussez avec les jambes pour soulever la barre du rack.",
+            "7. Faites deux pas en arrière pour vous stabiliser.",
+            "8. Réalisez une inspiration profonde et bloquez la respiration. Contractez votre sangle abdominale.",
+            "9. Descendez lentement en squat jusqu’à ce que vos hanches et chevilles le permettent, idéalement sous la parallèle.",
+            "10. Relevez-vous en poussant avec les talons jusqu’à la position haute.",
+            "11. Une fois en position haute, expirez et respirez normalement.",
+            "12. Pour une nouvelle répétition, inspirez profondément et recommencez le mouvement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "equipment": "Poulie",
+      "image": "/src/assets/equipment/exo_poulie.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Extension verticale à la poulie",
+          "image": "/src/assets/poulie/extension_verticale_poulie.jpg",
+          "description": [
+            "1. Fixez une barre en V sur une poulie haute.",
+            "2. Placez-vous face à la poulie et saisissez la poignée à deux mains avec une prise en pronation. Vous pouvez vous placer avec les deux pieds parallèles écartés de la largeur des épaules ou un pied devant l’autre.",
+            "3. En gardant les coudes près du corps et la poitrine relevée, tendez complètement vos bras en fléchissant vos triceps.",
+            "4. Pliez lentement les coudes jusqu’à ce que vos avant-bras soient légèrement au-dessus de la parallèle.",
+            "5. Répétez le mouvement jusqu’à ce que vous ayez effectué le nombre de répétitions souhaité."
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Tirage verticale poitrine",
+          "image": "/src/assets/poulie/tirage_verticale_poitrine.jpg",
+          "description": [
+            "1. Fixez une barre large à l’appareil de tirage pour les dorsaux et asseyez-vous.",
+            "2. Saisissez la poignée avec les mains en pronation et commencez le mouvement en abaissant les omoplates.",
+            "3. Tirez la barre jusqu’à ce qu’elle soit à peu près sous le menton. Évitez tout mouvement excessif du buste ; gardez-le aussi immobile que possible.",
+            "4. Gardez vos pieds à plat sur le sol et serrez vos abdominaux pendant que vous tirez. Le bas du mouvement correspond au point où vos coudes ne peuvent plus descendre sans reculer.",
+            "5. À partir de cette position basse, ramenez lentement la barre à la position de départ en contrôlant la montée.",
+            "6. Répétez le mouvement jusqu’au nombre de répétitions souhaité."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "equipment": "Machine",
+      "image": "/src/assets/equipment/exo_machine.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Crunch à la machine",
+          "image": "/src/assets/machine/crunch_machine.jpg",
+          "description": [
+            "1. Allongez-vous sur un tapis de sport, les genoux pliés et les pieds à plat sur le sol.",
+            "2. Placez vos mains à l’arrière de votre tête sans croiser les doigts, en gardant votre colonne vertébrale et votre bassin en position neutre.",
+            "3. Expirez et contractez vos abdominaux pour décoller lentement le haut de votre corps du sol.",
+            "4. Continuez à monter jusqu’à ce que vos abdominaux soient complètement contractés et que le haut du dos ne soit plus en contact avec le sol.",
+            "5. Redescendez lentement à la position de départ en inspirant.",
+            "6. Répétez le mouvement pour le nombre de répétitions désiré, en gardant le contrôle et en maintenant la contraction des abdominaux tout au long de l’exercice."
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Curl à la machine",
+          "image": "/src/assets/machine/curl_machine_white.png",
+          "description": [
+            "1. Commencez par choisir la charge que vous souhaitez utiliser.",
+            "2. Réglez le niveau du siège de manière à ce que vos bras reposent confortablement sur le haut du coussin. Certaines machines offrent la possibilité d’abaisser complètement le siège et de vous tenir debout, si cela est plus confortable pour vous.",
+            "3. Saisissez les poignées en les tenant par le dessous. C’est la position de départ.",
+            "4. Tout en expirant, contractez vos biceps et fléchissez les coudes au maximum. Maintenez une contraction puissante au sommet de la position pendant une seconde.",
+            "5. Redescendez les poignées en position de départ en inspirant.",
+            "6. Répétez le mouvement jusqu’au nombre de répétitions souhaité pour votre série."
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Développé à la machine assis",
+          "image": "/src/assets/machine/developpe_machine_assis.jpg",
+          "description": [
+            "1. Réglez la hauteur du siège pour que les poignées soient à mi-hauteur de vos pectoraux lorsque vous êtes assis.",
+            "2. Utilisez la pédale pour soulever la pile de poids jusqu’à la position de départ adéquate.",
+            "3. Tenez les poignées un peu plus écartées que la largeur des épaules, similaire au développé couché standard.",
+            "4. Poussez vers les poignées jusqu’à ce que vos bras soient complètement tendus devant vous.",
+            "5. Ramenez lentement les bras en position de départ en contrôlant le mouvement.",
+            "6. Répétez l’exercice pour le nombre de répétitions souhaité.",
+            "7. Utilisez la pédale pour reposer la pile de poids en fin de série si elle est disponible."
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Extension mollet à la machine",
+          "image": "/src/assets/machine/extension_mollet_machine.jpg",
+          "description": [
+            "1. Réglez la cale-épaule en fonction de votre taille pour stabiliser votre corps.",
+            "2. Positionnez-vous sous la cale-épaule et placez la plante de vos pieds sur la plate-forme, les orteils pointant droit devant vous.",
+            "3. Tendez les hanches et les genoux pour soulever la cale-épaule sur vos épaules.",
+            "4. Abaissez lentement les talons en dorsiflexion des chevilles jusqu’à ce que les mollets soient complètement étirés.",
+            "5. Redressez les chevilles en expirant pour fléchir les muscles des mollets.",
+            "6. Répétez le mouvement jusqu’au nombre de répétitions prévu, en maintenant le contrôle tout au long de l’exercice."
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Leg curl allongé",
+          "image": "/src/assets/machine/leg_curl_allonge.jpg",
+          "description": [
+            "1. Réglez le poids désiré sur la machine de leg curl et ajustez les coussins de rembourrage pour qu'ils soient juste au-dessus de l’arrière de vos chevilles.",
+            "2. Allongez-vous à plat ventre sur la machine, en vous assurant que vos genoux ne sont pas en contact avec la machine pour éviter toute pression sur les rotules.",
+            "3. Tendez les ischio-jambiers pour soulever légèrement le poids de la pile. C’est la position de départ de l’exercice.",
+            "4. Contractez les ischio-jambiers et montez la charge aussi haut que possible en pliant les jambes.",
+            "5. Maintenez la contraction pendant un moment en haut du mouvement.",
+            "6. Redescendez lentement le poids vers la position de départ en contrôlant le mouvement.",
+            "7. Répétez le mouvement pour le nombre de répétitions souhaité."
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Leg extension",
+          "image": "/src/assets/machine/leg_extension.jpg",
+          "description": [
+            "1. Sélectionnez la charge souhaitée sur la pile de poids et insérez la goupille.",
+            "2. Réglez l'appareil pour être correctement positionné.",
+            "3. Maintenez une posture droite avec une position neutre de la tête et du cou.",
+            "4. Gardez votre dos contre le dossier de l’appareil d’extension des jambes, engagez votre corps et ramenez vos fesses vers le siège.",
+            "5. Placez la partie inférieure de vos jambes en contact avec la barre rembourrée, juste au-dessus de vos chevilles. Orientez vos genoux vers l’avant et alignez vos chevilles avec vos genoux. Ramenez légèrement vos orteils vers vos genoux.",
+            "6. Toutes les répétitions doivent commencer dans cette position.",
+            "7. Commencez le mouvement en contractant vos quadriceps et en tendant les jambes.",
+            "8. Levez vos jambes jusqu’à ce qu’elles soient tendues, sans verrouiller vos genoux.",
+            "9. Contractez vos quadriceps pendant une seconde en fin de mouvement, puis revenez lentement à la position de départ.",
+            "10. Pliez vos genoux jusqu’à ce que vos chevilles soient sous vos genoux. Assurez-vous que les poids ne touchent pas la pile de poids pendant le mouvement descendant si l’appareil est correctement réglé."
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Presse à la cuisse",
+          "image": "/src/assets/machine/presse_cuisse.jpg",
+          "description": [
+            "1. Installez-vous sur la presse à cuisses et réglez la plateforme pour une amplitude de mouvement complète et confortable.",
+            "2. Placez vos pieds sur la moitié supérieure de la plateforme, alignant vos talons avec vos genoux.",
+            "3. Saisissez les poignées latérales de sécurité.",
+            "4. Poussez la plateforme avec vos pieds jusqu’à ce que vos jambes soient complètement tendues.",
+            "5. Tournez les poignées de sécurité vers l’extérieur pour déverrouiller la plateforme.",
+            "6. Inspirez en pliant les jambes et en abaissant la plateforme jusqu’à ce que vos genoux soient presque complètement fléchis.",
+            "7. Poussez avec vos talons et le milieu du pied pour remonter la plateforme jusqu’à la position de départ en expirant.",
+            "8. Répétez le mouvement pour le nombre de répétitions souhaité.",
+            "9. Verrouillez la plateforme en remettant les poignées de sécurité en place après l’exercice."
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Rowing à la machine",
+          "image": "/src/assets/machine/rowing_machine.jpg",
+          "description": [
+            "1. Préparez-vous à effectuer l’exercice en ajoutant des disques de musculation et en réglant la hauteur du siège. Votre poitrine doit se trouver au sommet du rembourrage.",
+            "2. Asseyez-vous sur la machine et saisissez les poignées avec une prise neutre.",
+            "3. En gardant la poitrine plaquée sur le support, les yeux tournés vers l’avant et les coudes rentrés sur les côtés, tirez lentement les poignées vers l’arrière aussi loin que possible.",
+            "4. Faites une pause en serrant les omoplates l’une contre l’autre, puis redescendez lentement les charges en position de départ sans les relâcher.",
+            "5. Répétez le mouvement jusqu’au nombre de répétitions souhaité."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "equipment": "Altère",
+      "image": "/src/assets/equipment/exo_altere.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Curl altere",
+          "image": "/src/assets/altere/curl_altere_white.png",
+          "description": [
+            "1. Placez un banc incliné entre 30 et 60 degrés.",
+            "2. Choisissez les haltères dans le rack et asseyez-vous bien droit avec le dos à plat contre le banc.",
+            "3. Prenez une prise neutre (paumes vers l’intérieur de votre corps).",
+            "4. Prenez une grande inspiration et contractez les biceps pour monter les haltères vers vos épaules.",
+            "5. Effectuez une rotation des poignets vers l’extérieur (supination) en fin de mouvement pour augmenter la contraction des biceps.",
+            "6. Contractez puissamment en haut du mouvement.",
+            "7. Redescendez lentement les haltères en position de départ.",
+            "8. Répétez ce mouvement jusqu’à atteindre le nombre de répétitions souhaité."
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Écarté couché aux alteres",
+          "image": "/src/assets/altere/ecarte_couche_altere.jpg",
+          "description": [
+            "1. Prenez les haltères au sol avec une prise neutre (paumes vers l’intérieur). Placez-les dans le creux des hanches et asseyez-vous sur le banc.",
+            "2. Allongez-vous et positionnez les haltères près de votre poitrine pour vous mettre en position.",
+            "3. Respirez profondément, puis poussez les haltères vers le haut pour les amener en position haute.",
+            "4. Rétractez légèrement vos omoplates, déverrouillez vos coudes et abaissez lentement les haltères sur les côtés en maintenant le même angle au niveau du coude.",
+            "5. Lorsque les haltères arrivent au niveau de la poitrine, inversez le mouvement en contractant les pectoraux pour ramener les haltères à leur position de départ.",
+            "6. Ne laissez pas les haltères se toucher et enchaînez avec la répétition suivante jusqu’à la fin de la série."
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Élévation latérale",
+          "image": "/src/assets/altere/elevation_laterale.jpg",
+          "description": [
+            "1. Choisissez une charge qui vous permet de conserver une bonne technique pendant toutes les séries et répétitions.",
+            "2. Prenez les deux haltères et tenez-vous debout, les pieds écartés de la largeur du bassin et les genoux légèrement fléchis. Votre corps doit être droit, les hanches légèrement ouvertes vers l’avant et la position de la tête et du cou doit être neutre.",
+            "3. Tenez les haltères sur les côtés, les paumes de vos mains face à vos jambes.",
+            "4. Vos paumes doivent être tournées légèrement vers l’intérieur de votre jambe extérieure (une petite pronation).",
+            "5. Vos bras doivent être tendus et vos coudes légèrement pliés. Toutes les répétitions doivent commencer dans cette position.",
+            "6. Tout en maintenant votre sangle abdominale gainée, élevez les deux haltères jusqu’à ce que vos coudes soient à l’horizontale.",
+            "7. Vous devez sentir une tension dans vos épaules. Vos paumes doivent être tournées vers le sol en haut du mouvement.",
+            "8. Marquez un temps d’arrêt en haut du mouvement, puis redescendez les haltères vers vos jambes de la même façon que vous les avez soulevés.",
+            "9. Une fois la position de départ retrouvée, recommencez jusqu’à effectuer le nombre de répétitions désiré."
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Extension mollets aux alteres",
+          "image": "/src/assets/altere/extension_mollets_altere.jpg",
+          "description": [
+            "1. Tenez-vous debout avec les pieds écartés à la largeur des épaules, en tenant un haltère dans chaque main.",
+            "2. Gardez le dos droit et les haltères le long des côtés, paumes des mains face aux cuisses.",
+            "3. Placez la partie avant des pieds (la zone sous les orteils) sur un support surélevé comme un step ou une plate-forme stable.",
+            "4. En gardant les genoux légèrement fléchis, laissez les talons pendre vers le bas en position de départ.",
+            "5. Montez sur la pointe des pieds en contractant fermement les muscles des mollets jusqu’à ce que vous soyez sur la pointe maximale.",
+            "6. Maintenez la contraction pendant une seconde, puis redescendez lentement en contrôlant le mouvement.",
+            "7. Répétez le mouvement pour le nombre de répétitions souhaité, en veillant à maintenir une bonne posture tout au long de l’exercice."
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Kickback",
+          "image": "/src/assets/altere/kickback.jpg",
+          "description": [
+            "1. Pour commencer l’exercice, placez un genou sur le banc de musculation. Penchez-vous en avant et placez également votre main sur le banc. Si votre genou droit est sur le banc, votre main droite sera sur le banc. Votre pied gauche reste sur le sol. Votre corps s’incline naturellement vers l’avant à partir des hanches. Maintenez votre dos droit et gainé et gardez votre tête dans le prolongement de votre colonne vertébrale.",
+            "2. Prenez un haltère dans votre main gauche (en supposant que votre main droite est sur le banc). Le bras gauche sera tendu sous l’épaule. La paume de la main devrait être orientée vers le banc de musculation.",
+            "3. Levez le coude gauche de manière à ce qu’il soit aligné avec votre torse (parallèle au sol). Le coude doit être plié à 90 degrés.",
+            "4. En gardant le coude dans une position fixe, tendez la partie inférieure du bras avec la charge. En pleine extension, vous devez avoir l’impression que le poids se dirige vers votre hanche derrière vous.",
+            "5. Gardez le coude fixe (bras parallèle au sol) et ramenez la charge à la position de départ (avec une flexion de 90 degrés au niveau du coude).",
+            "6. Répétez le mouvement en gardant les épaules relâchées et le dos droit."
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Oiseaux",
+          "image": "/src/assets/altere/oiseaux.jpg",
+          "description": [
+            "1. Choisissez une charge qui vous permet de conserver une bonne technique pendant toutes les séries et répétitions.",
+            "2. Tenez-vous debout, les pieds écartés de la largeur du bassin et les genoux légèrement fléchis. Votre corps doit être droit, les hanches légèrement ouvertes vers l’avant et la position de la tête et du cou doit être neutre.",
+            "3. Inclinez légèrement le buste vers l’avant en gardant le dos droit.",
+            "4. Tenez les haltères sur les côtés, les paumes de vos mains face à vos jambes.",
+            "5. Vos paumes doivent être tournées légèrement vers l’intérieur de votre jambe extérieure (une petite pronation).",
+            "6. Vos bras doivent être tendus et vos coudes légèrement pliés. Toutes les répétitions doivent commencer dans cette position.",
+            "7. Tout en maintenant votre sangle abdominale gainée, élevez les deux haltères jusqu’à ce que vos coudes soient à l’horizontale.",
+            "8. Vous devez sentir une tension dans vos épaules. Vos paumes doivent être tournées vers le sol en haut du mouvement.",
+            "9. Marquez un temps d’arrêt en haut du mouvement, puis redescendez les haltères vers vos jambes de la même façon que vous les avez soulevés.",
+            "10. Une fois la position de départ retrouvée, recommencez jusqu’à effectuer le nombre de répétitions désiré."
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Pullover",
+          "image": "/src/assets/altere/pullover.jpg",
+          "description": [
+            "1. Allongez-vous sur un banc, de manière à ce que votre tête, votre dos et vos fesses soient bien soutenus.",
+            "2. Placez un haltère ou une barre entre vos mains, les bras tendus au-dessus de votre poitrine.",
+            "3. Abaissez lentement le poids derrière votre tête tout en gardant une légère flexion des coudes. Gardez votre dos et vos fesses bien collés au banc.",
+            "4. À la position la plus basse, ressentez l’étirement dans les muscles de votre poitrine et de vos lats.",
+            "5. Revenez à la position de départ en ramenant le poids au-dessus de votre poitrine en utilisant principalement les muscles de votre poitrine.",
+            "6. Répétez le mouvement en maintenant le contrôle tout au long de l’exercice, en évitant de balancer ou de compenser avec votre corps."
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Rowing aux alteres",
+          "image": "/src/assets/altere/rowing_altere.jpg",
+          "description": [
+            "1. En tenant un haltère dans votre main droite, penchez-vous pour placer votre genou gauche et votre main gauche sur un banc pour soutenir le poids de votre corps.",
+            "2. Votre main droite doit être placée exactement sous votre épaule et vos genoux doivent être placés en dessous de vos hanches.",
+            "3. Contractez les muscles abdominaux afin de renforcer votre buste et de stabiliser votre colonne vertébrale.",
+            "4. Votre dos doit être plat et votre tête alignée avec votre colonne vertébrale.",
+            "5. Abaissez et rétractez vos omoplates (tirez vos épaules vers le bas et l’arrière) sans cambrer le bas du dos et maintenez cette position des épaules tout au long de l’exercice.",
+            "6. Tendez votre bras droit (en tenant l’haltère) vers le sol sans laisser votre torse pivoter ou votre épaule se déplacer vers le sol. C’est la position de départ.",
+            "7. Tirez le bras vers l’arrière, pliez le coude et rétractez l’omoplate pour amener l’haltère vers le haut et l’arrière jusqu’à ce qu’il touche le bas de la cage thoracique.",
+            "8. Évitez de pivoter le corps ou de changer la position de votre colonne vertébrale tout au long du mouvement.",
+            "9. Faites une pause au sommet pour contracter les muscles du milieu du dos et le muscle deltoïde postérieur.",
+            "10. Abaissez doucement l’haltère jusqu’à la position de départ tout en maintenant un dos plat.",
+            "11. Répétez le mouvement jusqu’à faire le nombre de répétitions souhaité. Changez ensuite de côté et effectuez le même nombre de répétitions. Vous avez ainsi terminé une série."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "equipment": "Poid du corps",
+      "image": "/src/assets/equipment/exo_PDC.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Crunch",
+          "image": "/src/assets/pdc/crunch.jpg",
+          "description": [
+            "1. Allongez-vous sur un tapis de sport, les genoux pliés et les pieds à plat sur le sol.",
+            "2. Placez vos mains à l’arrière de votre tête sans croiser les doigts, en gardant votre colonne vertébrale et votre bassin en position neutre.",
+            "3. Expirez et contractez vos abdominaux pour décoller lentement le haut de votre corps du sol.",
+            "4. Continuez à monter jusqu’à ce que vos abdominaux soient complètement contractés et que le haut du dos ne soit plus en contact avec le sol.",
+            "5. Redescendez lentement à la position de départ en inspirant.",
+            "6. Répétez le mouvement pour le nombre de répétitions désiré, en gardant le contrôle et en maintenant la contraction des abdominaux tout au long de l’exercice."
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Dips",
+          "image": "/src/assets/pdc/dips.jpg",
+          "description": [
+            "1. Placez-vous entre les barres parallèles et saisissez les barres de chaque côté.",
+            "2. Veillez à ce que la largeur entre les barres ne soit pas excessive pour éviter la tension au niveau des épaules.",
+            "3. Maintenez le dos droit avec les omoplates serrées et abaissées pour minimiser le risque de tension.",
+            "4. Serrez les barres et hissez-vous vers le haut en poussant à travers les paumes de vos mains.",
+            "5. Gardez les coudes près du corps tout au long du mouvement.",
+            "6. Contractez l’arrière de vos triceps lorsque vous atteignez l’extension complète en haut.",
+            "7. Abaissez-vous lentement jusqu’à ce que vos triceps soient parallèles au sol.",
+            "8. Remontez en poussant à travers les paumes pour revenir à la position de départ.",
+            "9. Effectuez le nombre de répétitions souhaité."
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Relevé de genoux",
+          "image": "/src/assets/pdc/releve_genoux.jpg",
+          "description": [
+            "1. Placez-vous sous une barre de traction haute, les bras tendus et les paumes des mains tournées vers l’avant (prise en pronation).",
+            "2. Saisissez fermement la barre avec une largeur légèrement supérieure à celle de vos épaules.",
+            "3. Contractez vos abdominaux et serrez vos omoplates pour stabiliser votre torse.",
+            "4. En gardant les bras tendus, soulevez lentement vos genoux vers votre poitrine en pliant les hanches et en fléchissant les genoux.",
+            "5. Amenez vos genoux aussi haut que possible tout en maintenant le contrôle du mouvement.",
+            "6. Maintenez la contraction en haut pendant une seconde.",
+            "7. Descendez lentement vos jambes pour revenir à la position de départ, en contrôlant le mouvement.",
+            "8. Répétez le mouvement jusqu’à atteindre le nombre de répétitions souhaité."
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Traction pronation",
+          "image": "/src/assets/pdc/traction_pronation.jpg",
+          "description": [
+            "1. Placez-vous sous une barre de traction. Sautez et saisissez la barre avec les mains en pronation (paumes vers l'extérieur) à une largeur légèrement supérieure à celle des épaules.",
+            "2. Vos épaules, le haut du dos et les hanches doivent être correctement alignés. Les bras sont parfaitement tendus et votre corps se trouve en suspension. C’est la position de départ.",
+            "3. Prenez une grande inspiration puis expirez. Hissez-vous ensuite vers le haut en contractant les muscles de votre dos.",
+            "4. Amenez le menton au-dessus de la barre jusqu’à ce que les dorsaux soient bien contractés, puis redescendez lentement à la position de départ.",
+            "5. Répétez le mouvement jusqu’au nombre de répétitions prévu."
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Traction supination",
+          "image": "/src/assets/pdc/traction_supination.jpg",
+          "description": [
+            "1. Commencez par attraper la barre de traction avec les paumes des mains tournées vers vous (prise en supination). La prise doit être de la largeur des épaules.",
+            "2. Décollez vos pieds du sol et laissez-vous pendre. Vos bras doivent être tendus, et vos coudes légèrement fléchis.",
+            "3. Serrez légèrement vos omoplates l’une contre l’autre, en tirant vos épaules vers l’arrière. Imaginez que vous essayez de serrer une grosse orange entre vos omoplates.",
+            "4. Contractez vos muscles abdominaux, en rentrant votre nombril vers l’intérieur, en direction de votre colonne vertébrale. Cela permet d’activer votre ceinture abdominale, d’améliorer votre équilibre et de vous assurer que vous utilisez les bons muscles.",
+            "5. Soulevez votre corps en pliant les coudes et en serrant les omoplates l’une contre l’autre et vers le bas.",
+            "6. Montez jusqu’à ce que le menton passe au-dessus de la barre.",
+            "7. Faites une pause au sommet du mouvement et redescendez lentement, en maîtrisant le mouvement jusqu’à la position de départ.",
+            "8. Effectuez le nombre de répétitions souhaité."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "equipment": "Kettlebell",
+      "image": "/src/assets/equipment/exo_kettlebell.jpg",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Clean kettlebell",
+          "image": "/src/assets/kettlebell/Clean_kettlebell.jpg",
+          "description": [
+            "1. Placez la kettlebell sur le sol entre vos pieds, écartés à la largeur des épaules.",
+            "2. Penchez-vous en avant en gardant le dos droit et saisissez fermement la kettlebell avec une prise neutre.",
+            "3. Utilisez une impulsion des hanches pour soulever la kettlebell jusqu'à l'épaule, en gardant le bras serré contre le corps.",
+            "4. Redescendez la kettlebell en contrôlant le mouvement et répétez.",
+            "5. Alternez les bras si vous effectuez des répétitions unilatérales."
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Snatch kettlebell",
+          "image": "/src/assets/kettlebell/Snatch_kettlebell.jpg",
+          "description": [
+            "1. Placez la kettlebell devant vous, pieds écartés à la largeur des épaules.",
+            "2. Fléchissez les hanches et les genoux pour saisir la kettlebell avec une prise en pronation.",
+            "3. Utilisez une impulsion des hanches pour soulever la kettlebell au-dessus de la tête en un mouvement continu.",
+            "4. Verrouillez le bras au-dessus de la tête et revenez à la position de départ en contrôlant la descente.",
+            "5. Répétez le mouvement pour le nombre de répétitions souhaité."
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Swing kettlebell",
+          "image": "/src/assets/kettlebell/Swing_kettlebell.jpg",
+          "description": [
+            "1. Placez la kettlebell légèrement devant vous, pieds écartés plus large que la largeur des épaules.",
+            "2. Fléchissez les hanches et les genoux pour saisir la kettlebell avec une prise en pronation.",
+            "3. Utilisez une impulsion des hanches pour balancer la kettlebell entre les jambes vers l'avant.",
+            "4. À l'apogée du mouvement, contractez les fessiers et les abdominaux pour propulser la kettlebell jusqu'à la hauteur des épaules.",
+            "5. Redescendez la kettlebell entre les jambes en contrôlant le mouvement et répétez."
+          ]
+        }
+      ]
+    }
+  ]
+}
